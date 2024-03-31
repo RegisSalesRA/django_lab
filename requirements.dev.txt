@@ -1,2 +1,2 @@
-flake8>=3.9.2,<3.10
-autopep8==2.1.0
+flake8==7.0.0
+autopep8>=2.1.0
