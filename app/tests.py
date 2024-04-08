@@ -1,5 +1,5 @@
 from django.test import SimpleTestCase
-from calc import add
+from calc import add, remove
 
 
 class CalcTests(SimpleTestCase):
@@ -7,3 +7,8 @@ class CalcTests(SimpleTestCase):
         res = add(5, 6)
 
         self.assertEqual(res, 11)
+
+    def test_remove_numbers(self):
+        res = remove(7, 6)
+
+        self.assertEqual(res, 1)
