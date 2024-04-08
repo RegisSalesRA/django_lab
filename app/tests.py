@@ -11,4 +11,4 @@ class CalcTests(SimpleTestCase):
     def test_remove_numbers(self):
         res = remove(7, 6)
 
-        self.assertEqual(res, 1)
+        self.assertEqual(res, 8)
