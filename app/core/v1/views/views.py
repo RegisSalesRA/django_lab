@@ -11,7 +11,7 @@ class TasksView(generics.ListCreateAPIView):
     serializer_class = TaskCreateSerializer
 
 
-class TaskView(generics.RetrieveDestroyAPIView):
+class TaskView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
 
@@ -21,7 +21,7 @@ class TagsView(generics.ListCreateAPIView):
     serializer_class = TagCreateSerializer
 
 
-class TagView(generics.RetrieveDestroyAPIView):
+class TagView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
 
@@ -31,6 +31,6 @@ class CategorysView(generics.ListCreateAPIView):
     serializer_class = CategoryCreateSerializer
 
 
-class CategoryView(generics.RetrieveDestroyAPIView):
+class CategoryView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
