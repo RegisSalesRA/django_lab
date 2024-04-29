@@ -4,3 +4,5 @@
 - docker compose run --rm app sh -c "flake8"
 #Exec
 - docker exec -it container_id sh
+#Tests
+- docker compose run --rm app sh -c "python manage.py test"
