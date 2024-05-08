@@ -19,7 +19,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'core',
     'authentication',
-    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
@@ -77,11 +76,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-    'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
-}
 
 LANGUAGE_CODE = 'en-us'
 
