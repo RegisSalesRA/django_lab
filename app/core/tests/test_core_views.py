@@ -1,11 +1,8 @@
-from django.contrib.auth import get_user_model
 from django.test import TestCase
-from django.urls import reverse
 from rest_framework import status
 from rest_framework.test import APIClient
+from mocks.api_routes_mock import ApiRouteMocks as routes
 
-
-RECIPES_URL = '/api/v1/core/tasks'
 
 class PublicRecipeAPITests(TestCase):
 
@@ -13,7 +10,5 @@ class PublicRecipeAPITests(TestCase):
         self.client = APIClient()
 
     def test_auth_required(self):
-
-        res = self.client.get(RECIPES_URL)
-
+        res = self.client.get(routes().url_api_get_tasks)
         self.assertEqual(res.status_code, status.HTTP_200_OK)
