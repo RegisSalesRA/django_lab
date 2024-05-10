@@ -22,9 +22,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Migrations
-        run : docker-compose run --rm app sh -c "python manage.py makemigrations && python manage.py migrate"
-
       - name: Test
         run: docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py test"
 
