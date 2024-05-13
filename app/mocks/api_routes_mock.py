@@ -2,13 +2,11 @@ from abc import ABC, abstractmethod
 
 
 class ApiRouteInterface(ABC):
-    @property
     @abstractmethod
-    def url_api_get_tasks(self):
+    def url_api_get_tasks():
         pass
 
 
 class ApiRouteMocks(ApiRouteInterface):
-    @property
-    def url_api_get_tasks(self):
+    def url_api_get_tasks():
         return '/api/v1/core/tasks'
