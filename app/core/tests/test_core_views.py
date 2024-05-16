@@ -1,7 +1,7 @@
 from django.test import TestCase
 from rest_framework import status
 from rest_framework.test import APIClient
-from core.models import Category, Tag, Task
+from core.tests.helpers.task_helper_test import CategoryFactory, TagFactory, TaskFactory
 from mocks.api_routes_mock import ApiRouteMocks as routes
 
 
@@ -15,11 +15,9 @@ class TaskAPITests(TestCase):
         self.assertEqual(res.status_code, status.HTTP_200_OK)
 
     def test_get_task_detail(self):
-        tag = Tag.objects.create(name="Tag_1")
-        category = Category.objects.create(name="Category_1")
-        task = Task.objects.create(name="Task_1", category=category)
-        task.tags.add(tag)
+        task = TaskFactory(tags=[TagFactory()], category=CategoryFactory())
         res = self.client.get(routes.url_api_get_task(task.id))
+        self.assertEqual(res.status_code, status.HTTP_200_OK)
         self.assertEqual(res.data['name'], task.name)
 
     def test_get_task_404(self):
