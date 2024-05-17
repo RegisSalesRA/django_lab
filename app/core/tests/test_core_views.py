@@ -84,3 +84,9 @@ class TaskAPITests(TestCase):
     def test_delete_task_404(self):
         res = self.client.delete(routes.url_api_get_task(20))
         self.assertEqual(res.status_code, status.HTTP_404_NOT_FOUND)
+
+
+class CategoryAPITests(TestCase):
+
+    def setUp(self):
+        self.client = APIClient()
