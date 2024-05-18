@@ -17,3 +17,15 @@ class ApiRouteMocks(ApiRouteInterface):
 
     def url_api_get_task(id):
         return f'/api/v1/core/tasks/{id}'
+
+    def url_api_get_categorys():
+        return '/api/v1/core/categorys'
+
+    def url_api_get_category(id):
+        return f'/api/v1/core/categorys/{id}'
+
+    def url_api_get_tags():
+        return '/api/v1/core/tags'
+
+    def url_api_get_tag(id):
+        return f'/api/v1/core/tags/{id}'
