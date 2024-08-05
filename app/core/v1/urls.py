@@ -9,7 +9,7 @@ urlpatterns = [
     path("tasks", TasksView.as_view()),
     path("tasks/<str:pk>", TaskView.as_view()),
     path("tasks_by_category/<str:pk>", TaskByCategoryView.as_view()),
-    path("tasks_by_tags", TaskByTagView.as_view()),
+    path("tasks_by_tags/", TaskByTagView.as_view()),
     path("tags", TagsView.as_view()),
     path("tags/<str:pk>", TagView.as_view()),
     path("categorys", CategorysView.as_view()),

@@ -29,3 +29,9 @@ class ApiRouteMocks(ApiRouteInterface):
 
     def url_api_get_tag(id):
         return f'/api/v1/core/tags/{id}'
+
+    def url_api_get_tasks_by_category(id):
+        return f'/api/v1/core/tasks_by_category/{id}'
+
+    def url_api_get_tasks_by_tags(id):
+        return f'/api/v1/core/tasks_by_tags/?tags={id}'
