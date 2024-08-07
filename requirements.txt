@@ -6,3 +6,4 @@ typing_extensions==4.10.0
 psycopg2>=2.9.3,<2.10
 cryptography==42.0.5
 factory_boy==3.2.0
+Pillow>=8.2.0,<8.3.0
