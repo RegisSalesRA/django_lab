@@ -12,6 +12,6 @@ urlpatterns = [
     path("tasks_by_tags/", TaskByTagView.as_view()),
     path("tags", TagsView.as_view()),
     path("tags/<str:pk>", TagView.as_view()),
-    path("categorys", CategorysView.as_view()),
-    path("categorys/<str:pk>", CategoryView.as_view()),
+    path("categories", CategorysView.as_view()),
+    path("categories/<str:pk>", CategoryView.as_view()),
     ]
