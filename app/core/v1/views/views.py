@@ -1,7 +1,7 @@
 from rest_framework import generics
-from core.models import Task, Tag, Category
+from core.models import Album, Task, Tag, Category
 from core.v1.serializers.serializers import (
-    TaskSerializer, TagSerializer, CategorySerializer,
+    AlbumCreateSerializer, AlbumListSerializer, TaskSerializer, TagSerializer, CategorySerializer,
     TaskCreateSerializer, TagCreateSerializer, CategoryCreateSerializer
 )
 
@@ -34,3 +34,13 @@ class CategorysView(generics.ListCreateAPIView):
 class CategoryView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
+
+
+class AlbumsView(generics.ListCreateAPIView):
+    queryset = Album.objects.all()
+    serializer_class = AlbumListSerializer
+
+
+class AlbumView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Album.objects.all()
+    serializer_class = AlbumCreateSerializer

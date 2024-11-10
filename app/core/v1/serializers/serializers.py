@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from core.models import Task, Tag, Category
+from core.models import Album, Task, Tag, Category
 
 
 class TaskSerializer(serializers.ModelSerializer):
@@ -35,4 +35,21 @@ class TagCreateSerializer(serializers.ModelSerializer):
 class CategoryCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
+        fields = "__all__"
+
+
+class AlbumCreateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Album
+        fields = "__all__"
+
+
+class AlbumListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Album
+        fields = "__all__"
+
+class AlbumCreateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Album
         fields = "__all__"
