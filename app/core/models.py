@@ -42,7 +42,6 @@ class Task(models.Model):
 
 class Album(models.Model):
     name = models.CharField(max_length=255)
-    image = models.ImageField( upload_to=recipe_image_file_path
-                              )
+    image = models.ImageField(upload_to=recipe_image_file_path)
     createdAt = models.DateTimeField(auto_now_add=True)
     updatedAt = models.DateTimeField(auto_now=True)

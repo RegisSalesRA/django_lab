@@ -48,8 +48,3 @@ class AlbumListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Album
         fields = "__all__"
-
-class AlbumCreateSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Album
-        fields = "__all__"

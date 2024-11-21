@@ -1,7 +1,7 @@
 from django.urls import path
 from core.v1.views.views_filter import TaskByCategoryView, TaskByTagView
 from core.v1.views.views import (
-    TaskView, TasksView, CategorysView, CategoryView, TagsView, TagView,AlbumsView,AlbumView
+    TaskView, TasksView, CategorysView, CategoryView, TagsView, TagView, AlbumsView, AlbumView
 )
 
 
