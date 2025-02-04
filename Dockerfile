@@ -1,5 +1,5 @@
 FROM python:3.10.14-alpine3.18
-LABEL maintainer="regisdeveloper.com"
+LABEL maintainer="djangolab.com"
 
 ENV PYTHONUNBUFFERED 1
 

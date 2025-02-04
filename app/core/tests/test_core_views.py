@@ -138,11 +138,7 @@ class CategoryAPITests(TestCase):
         payload = {
             'name': ''
         }
-        print(category)
-        print(category.id)
-        print('AQUIIIIIIIIIIIIIIII')
         res = self.client.put(routes.url_api_get_category(self, category.id), payload)
-        print(res)
         self.assertEqual(res.status_code, status.HTTP_400_BAD_REQUEST)
 
     def test_update_category_404(self):
