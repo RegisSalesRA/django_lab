@@ -1,5 +1,14 @@
 from django.db import models
-from app.core.models import recipe_image_file_path
+import os
+import uuid
+
+
+def recipe_image_file_path(instance, filename):
+    """Generate file path for new recipe image."""
+    ext = os.path.splitext(filename)[1]
+    filename = f'{uuid.uuid4()}{ext}'
+
+    return os.path.join('uploads', 'recipe', filename)
 
 
 class Album(models.Model):

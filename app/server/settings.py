@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'core',
+    'core_image',
     'authentication',
 ]
 
