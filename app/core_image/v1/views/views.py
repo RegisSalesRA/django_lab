@@ -7,3 +7,7 @@ class AlbumsView(generics.ListCreateAPIView):
     queryset = Album.objects.all().order_by(
         'createdAt')
     serializer_class = AlbumSerializer
+
+class AlbumView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Album.objects.all()
+    serializer_class = AlbumSerializer
