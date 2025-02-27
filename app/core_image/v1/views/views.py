@@ -8,6 +8,7 @@ class AlbumsView(generics.ListCreateAPIView):
         'createdAt')
     serializer_class = AlbumSerializer
 
+
 class AlbumView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Album.objects.all()
     serializer_class = AlbumSerializer
