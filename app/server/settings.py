@@ -13,6 +13,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
+    'core_auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -21,7 +22,6 @@ INSTALLED_APPS = [
     'drf_yasg',
     'core',
     'core_image',
-    'core_auth',
     'rest_framework_simplejwt',
 ]
 
