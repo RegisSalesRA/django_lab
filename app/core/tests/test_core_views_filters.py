@@ -18,6 +18,9 @@ class TaskCategoryFilterAPITests(TestCase):
         task = TaskFactory(tags=[TagFactory()], category=CategoryFactory())
         res = self.client.get(routes.url_api_get_tasks_by_category(self, task.category.id))
         self.assertEqual(res.status_code, status.HTTP_200_OK)
+
+        # Verifique se a resposta contém dados
+        self.assertTrue(len(res.data) > 0, "Esperado algum dado na resposta.")
         self.assertEqual(res.data[0]['category'], task.category.id)
 
     def test_method_not_allowed_task_by_category_post(self):
@@ -26,6 +29,7 @@ class TaskCategoryFilterAPITests(TestCase):
 
     def test_task_by_category_0(self):
         res = self.client.get(routes.url_api_get_tasks_by_category(self, 25))
+        print(res.data)  # Debug: Verifica os dados retornados
         self.assertEqual(len(res.data), 0)
 
 
@@ -43,9 +47,11 @@ class TaskTagsFilterAPITests(TestCase):
         task = TaskFactory(tags=[tag], category=CategoryFactory())
         res = self.client.get(routes.url_api_get_tasks_by_tags(self, tag.id))
         self.assertEqual(res.status_code, status.HTTP_200_OK)
+
+        # Verifique se a resposta contém dados
+        self.assertTrue(len(res.data) > 0, "Esperado algum dado na resposta.")
         self.assertEqual(res.data[0]['category'], task.category.id)
         self.assertEqual(res.data[0]['name'], task.name)
-        self.assertTrue(len(res.data) > 0)
         self.assertEqual(res.data[0]['tags'][0], tag.id)
 
     def test_method_not_allowed_task_by_tags_post(self):
@@ -53,5 +59,8 @@ class TaskTagsFilterAPITests(TestCase):
         self.assertEqual(res.status_code, status.HTTP_405_METHOD_NOT_ALLOWED)
 
     def test_task_by_tags_0(self):
+        print('zé da manga')
         res = self.client.get(routes.url_api_get_tasks_by_tags(self, 20))
+        print(res)
+        print('zé da manga')
         self.assertEqual(len(res.data), 0)

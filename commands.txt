@@ -1,8 +1,12 @@
 #Docker
-- docker compose run --rm app sh -c "python manage.py runserver"
+- sudo docker compose run --rm app sh -c "python manage.py runserver"
+#Makemigrations
+- sudo docker compose run --rm app sh -c "python manage.py makemigrations"
+#Migrate
+- sudo docker compose run --rm app sh -c "python manage.py migrate"
 #Flake8
-- docker compose run --rm app sh -c "flake8"
+- sudo docker compose run --rm app sh -c "flake8"
 #Exec
-- docker exec -it container_id sh
+- sudo docker exec -it container_id sh
 #Tests
-- docker compose run --rm app sh -c "python manage.py test"
+- sudo docker compose run --rm app sh -c "python manage.py test"
