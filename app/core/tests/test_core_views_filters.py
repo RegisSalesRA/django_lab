@@ -59,8 +59,5 @@ class TaskTagsFilterAPITests(TestCase):
         self.assertEqual(res.status_code, status.HTTP_405_METHOD_NOT_ALLOWED)
 
     def test_task_by_tags_0(self):
-        print('zé da manga')
         res = self.client.get(routes.url_api_get_tasks_by_tags(self, 20))
-        print(res)
-        print('zé da manga')
         self.assertEqual(len(res.data), 0)
