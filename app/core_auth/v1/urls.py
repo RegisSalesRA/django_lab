@@ -1,10 +1,11 @@
 from django.urls import path
-from core_auth.v1.views import EventView, EventsView, OrganizerSignupView
+from core_auth.v1.views import UserEventView, UserEventsView, UserProfileView, GetUser
 
 
 urlpatterns = [
-    path("organizer_signup", OrganizerSignupView.as_view()),
-    path("events",
-         EventsView.as_view()),
-    path("event/<str:pk>",
-         EventView.as_view()),]
+    path("user_profile", UserProfileView.as_view()),
+    path("get_user", GetUser.as_view()),
+    path("user_events",
+         UserEventsView.as_view()),
+    path("user_event/<str:pk>",
+         UserEventView.as_view()),]

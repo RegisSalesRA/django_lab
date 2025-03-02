@@ -1,10 +1,10 @@
-from core_auth.models import EventModel, Organizer, User
+from core_auth.models import UserEvent, User,  UserProfile
 from rest_framework import serializers
 
 
 class EventSerializer(serializers.ModelSerializer):
     class Meta:
-        model = EventModel
+        model = UserEvent
         fields = "__all__"
 
 
@@ -14,7 +14,7 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ["username"]
 
 
-class OrganizerSerializerRegister(serializers.ModelSerializer):
+class UserProfileSerializer(serializers.ModelSerializer):
     password2 = serializers.CharField(
         style={"input_type": "password"}, write_only=True)
     email = serializers.EmailField(
@@ -33,7 +33,7 @@ class OrganizerSerializerRegister(serializers.ModelSerializer):
         password = self.validated_data["password"]
         password2 = self.validated_data["password2"]
 
-        if Organizer.objects.filter(
+        if UserProfile.objects.filter(
                 email=self.validated_data["email"]).exists():
             raise serializers.ValidationError("Email already exist")
 
@@ -42,9 +42,9 @@ class OrganizerSerializerRegister(serializers.ModelSerializer):
 
         try:
             user.set_password(password)
-            user.is_organizer = True
+            user.is_User = True
             user.save()
-            Organizer.objects.create(
+            UserProfile.objects.create(
                 user=user,
                 name=self.validated_data["name"],
                 email=self.validated_data["email"])

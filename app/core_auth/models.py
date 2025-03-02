@@ -11,10 +11,10 @@ class User(AbstractUser):
         return str(self.username)
 
 
-class Organizer(models.Model):
+class UserProfile(models.Model):
     user = models.OneToOneField(
         User,
-        related_name="organizer",
+        related_name="user_profile",
         on_delete=models.CASCADE,
         unique=True)
     name = models.CharField(max_length=255, blank=False, null=False)
@@ -30,12 +30,14 @@ class Organizer(models.Model):
         return str(self.user)
 
 
-class EventModel(models.Model):
+class UserEvent(models.Model):
     name = models.CharField(max_length=150)
     reward = models.CharField(max_length=200)
     avilible = models.BooleanField(default=True)
     createAt = models.DateTimeField(auto_now_add=True, auto_created=True)
     updateAt = models.DateTimeField(auto_now=True, auto_created=True)
+    user = models.ForeignKey(
+        UserProfile, on_delete=models.CASCADE, related_name="user_profile")
 
     def __str__(self):
         return f"Evento: {self.name}"
