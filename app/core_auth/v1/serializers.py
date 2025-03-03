@@ -50,4 +50,4 @@ class UserProfileSerializer(serializers.ModelSerializer):
                 email=self.validated_data["email"])
             return user
         except Exception as e:
-            print(e)
+            e

@@ -40,6 +40,9 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
+
+}
+"""
     'DEFAULT_THROTTLE_CLASSES': [
         'rest_framework.throttling.AnonRateThrottle',
         'rest_framework.throttling.UserRateThrottle'
@@ -48,7 +51,7 @@ REST_FRAMEWORK = {
         'anon': '100/min',
         'user': '60/min'
     }
-}
+"""
 
 AUTH_USER_MODEL = "core_auth.User"
 

@@ -19,7 +19,6 @@ class TaskCategoryFilterAPITests(TestCase):
         res = self.client.get(routes.url_api_get_tasks_by_category(self, task.category.id))
         self.assertEqual(res.status_code, status.HTTP_200_OK)
 
-        # Verifique se a resposta contém dados
         self.assertTrue(len(res.data) > 0, "Esperado algum dado na resposta.")
         self.assertEqual(res.data[0]['category'], task.category.id)
 
@@ -29,7 +28,6 @@ class TaskCategoryFilterAPITests(TestCase):
 
     def test_task_by_category_0(self):
         res = self.client.get(routes.url_api_get_tasks_by_category(self, 25))
-        print(res.data)  # Debug: Verifica os dados retornados
         self.assertEqual(len(res.data), 0)
 
 

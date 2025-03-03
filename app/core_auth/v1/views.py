@@ -43,7 +43,6 @@ class UserEventView(generics.RetrieveUpdateDestroyAPIView):
     def get_object(self):
         user = self.request.user.user_profile
         event_id = self.kwargs.get("pk")
-        print(event_id)
         return get_object_or_404(UserEvent, id=event_id, user=user.id)
 
 
