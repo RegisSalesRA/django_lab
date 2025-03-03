@@ -13,7 +13,7 @@ class ApiImageRouteInterface(ABC):
 
 class ApiRouteAuthMocks(ApiImageRouteInterface):
     def url_api_get_auth_events(self):
-        return f'/api/v1/core_image/albums'
+        return '/api/v1/core_image/albums'
 
     def url_api_get_auth_event(self, id):
         return f'/api/v1/core_image/album/{id}'

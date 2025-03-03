@@ -23,19 +23,19 @@ class ApiAuthRouteInterface(ABC):
         pass
 
 
-
 class ApiRouteAuthMocks(ApiAuthRouteInterface):
+
     def url_api_get_auth_events(self):
-        return f'/api/v1/core_auth/user_events'
+        return '/api/v1/core_auth/user_events'
 
     def url_api_get_auth_event(self, id):
         return f'/api/v1/core_auth/user_event/{id}'
 
     def url_api_create_user(self):
-        return f'/api/v1/core_auth/user_profile'
+        return '/api/v1/core_auth/user_profile'
 
     def url_api_get_user(self):
-        return f'/api/v1/core_auth/get_user'
+        return '/api/v1/core_auth/get_user'
 
     def url_api_login(self):
         return '/api/token/'

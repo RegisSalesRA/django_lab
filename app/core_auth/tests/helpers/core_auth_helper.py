@@ -1,8 +1,10 @@
-from  core_auth.models import User, UserEvent, UserProfile
+from core_auth.models import User, UserEvent, UserProfile
 import factory
 from factory.django import DjangoModelFactory
 
+
 class UserFactory(DjangoModelFactory):
+
     class Meta:
         model = User
 
@@ -12,6 +14,7 @@ class UserFactory(DjangoModelFactory):
     first_name = factory.Faker('first_name')
     last_name = factory.Faker('last_name')
 
+
 class UserProfileFactory(DjangoModelFactory):
     class Meta:
         model = UserProfile
@@ -20,6 +23,7 @@ class UserProfileFactory(DjangoModelFactory):
     name = factory.Faker('first_name')
     second_name = factory.Faker('last_name')
     email = factory.Faker('email')
+
 
 class UserEventFactory(DjangoModelFactory):
     class Meta:

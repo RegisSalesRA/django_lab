@@ -1,4 +1,5 @@
 class DataMocks:
+
     data_task = {
         "id": 1,
         "name": "Task_1",
