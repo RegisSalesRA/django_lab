@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> itemsHeldList = [
+ [
   {
     "photo": "https://i.imgur.com/YfhDL0f.png",
     "name": "Absorb Bulb",
@@ -6,7 +6,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "100 BP",
     "craft": null,
     "effect":
-        "Plus 1 increase in Special Attack if you're attacked by Water-type moves.",
+        "Plus 1 increase in Special Attack if you're attacked by Water-type moves."
   },
   {
     "photo": "https://i.imgur.com/DCdP1AS.png",
@@ -15,7 +15,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "The power of Steel and Dragon Moves for Dialga will increase by +20% power.",
+        "The power of Steel and Dragon Moves for Dialga will increase by +20% power."
   },
   {
     "photo": "https://i.imgur.com/ACXTKIr.png",
@@ -24,7 +24,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "Immunity to Ground-type moves. If you use an attacking move, then the balloon will pop.",
+        "Immunity to Ground-type moves. If you use an attacking move, then the balloon will pop."
   },
   {
     "photo": "https://i.imgur.com/HCKvIKF.png",
@@ -33,7 +33,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "1,000 RP (Reward Points)",
     "craft": null,
     "effect":
-        "This item is account-bound. It can only be traded to characters on the same account. When held by a Pokémon, it prevents the holder from gaining any EXP, but doubles EV gain. The holder may gain EVs even if they don't participate in the battle.",
+        "This item is account-bound. It can only be traded to characters on the same account. When held by a Pokémon, it prevents the holder from gaining any EXP, but doubles EV gain. The holder may gain EVs even if they don't participate in the battle."
   },
   {
     "photo": "https://i.imgur.com/uGAntLZ.png",
@@ -42,7 +42,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,800 BP",
     "craft": null,
     "effect":
-        "A special jacket which raises the holder's Special Defense by +50%. It prevents the user of all Status moves except 'Me First' in Battle.",
+        "A special jacket which raises the holder's Special Defense by +50%. It prevents the user of all Status moves except 'Me First' in Battle."
   },
   {
     "photo": "https://i.imgur.com/xFk8Dzk.png",
@@ -50,7 +50,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [69, 70, 71, 345, 346],
     "price": null,
     "craft": null,
-    "effect": "You can recover +30% HP from Draining moves.",
+    "effect": "You can recover +30% HP from Draining moves."
   },
   {
     "photo": "https://i.imgur.com/DhiRPa5.png",
@@ -59,7 +59,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800 BP",
     "craft": null,
     "effect":
-        "his held item allows for you to increase the damage input of Binding Moves (Wrap, Bind, etc) by +12.5% to +16.7%..",
+        "his held item allows for you to increase the damage input of Binding Moves (Wrap, Bind, etc) by +12.5% to +16.7%.."
   },
   {
     "photo": "https://i.imgur.com/zYerCLL.png",
@@ -67,7 +67,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [296, 538, 539],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Fighting-type moves by +20%.",
+    "effect": "This item will boost Fighting-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/249UCcq.png",
@@ -75,7 +75,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [551, 552, 553],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Dark-type moves by +20%.",
+    "effect": "This item will boost Dark-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/9FIUiJa.png",
@@ -83,7 +83,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [265, 313, 314],
     "price": "3,200 BP",
     "craft": null,
-    "effect": "Your evation will increase by 10%.",
+    "effect": "Your evation will increase by 10%."
   },
   {
     "photo": "https://i.imgur.com/y5LpEZe.png",
@@ -91,7 +91,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Silver Powder",
-    "effect": "The Power of Bug-type moves will increase by +50%.",
+    "effect": "The Power of Bug-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/C2M3071.png",
@@ -100,7 +100,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "100 BP",
     "craft": null,
     "effect":
-        "Plus 1 increase in Attack if you're attacked by Electric-type moves.",
+        "Plus 1 increase in Attack if you're attacked by Electric-type moves."
   },
   {
     "photo": "https://i.imgur.com/G37whKf.png",
@@ -108,7 +108,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [37, 38, 324],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Fire-type moves by +20%.",
+    "effect": "This item will boost Fire-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/0o2mQDO.png",
@@ -117,7 +117,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,800 BP",
     "craft": null,
     "effect":
-        "You will have a +50% Attack Stat Boost, but you will lock onto the first move you used.",
+        "You will have a +50% Attack Stat Boost, but you will lock onto the first move you used." 
   },
   {
     "photo": "https://i.imgur.com/XIKcqwm.png",
@@ -126,7 +126,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,800 BP",
     "craft": null,
     "effect":
-        "You will have a +50% Speed Stat Boost, but you will lock onto the first move you used.",
+        "You will have a +50% Speed Stat Boost, but you will lock onto the first move you used." 
   },
   {
     "photo": "https://i.imgur.com/ueUWMkb.png",
@@ -135,7 +135,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,800 BP",
     "craft": null,
     "effect":
-        "You will have a +50% Special Attack Stat Boost, but you will lock onto the first move you used.",
+        "You will have a +50% Special Attack Stat Boost, but you will lock onto the first move you used." 
   },
   {
     "photo": "https://i.imgur.com/76D8Ycn.png",
@@ -143,7 +143,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [358, 433],
     "price": null,
     "craft": null,
-    "effect": "You can avoid all low level encounters if you hold this item.",
+    "effect": "You can avoid all low level encounters if you hold this item."
   },
   {
     "photo": "https://i.imgur.com/P9ik9dF.png",
@@ -151,7 +151,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [278, 279],
     "price": null,
     "craft": null,
-    "effect": "Rain Weather Turns will be increased from 5 turns to 8 turns.",
+    "effect": "Rain Weather Turns will be increased from 5 turns to 8 turns."
   },
   {
     "photo": "https://i.imgur.com/zzIAX3B.png",
@@ -159,7 +159,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Black Glasses",
-    "effect": "The Power of Dark-type moves will increase by +50%.",
+    "effect": "The Power of Dark-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/Eg6Srq6.png",
@@ -168,7 +168,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": "-",
     "effect":
-        "While holding this item, you can trade Clamperl to evolve it into Huntail. You can also increase your Special Defence by +2 stages.",
+        "While holding this item, you can trade Clamperl to evolve it into Huntail. You can also increase your Special Defence by +2 stages." 
   },
   {
     "photo": "https://i.imgur.com/4gNrTDS.png",
@@ -177,7 +177,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "While holding this item, you can trade Clamperl to evolve it into Huntail. You can also increase your Special Defence by +2 stages",
+        "While holding this item, you can trade Clamperl to evolve it into Huntail. You can also increase your Special Defence by +2 stages" 
   },
   {
     "photo": "https://i.imgur.com/tJk3Pvz.png",
@@ -185,7 +185,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [280, 281, 282, 475],
     "price": null,
     "craft": null,
-    "effect": "If the Holder is Infatuated, then the opponent will be too.",
+    "effect": "If the Holder is Infatuated, then the opponent will be too."
   },
   {
     "photo": "https://i.imgur.com/VcHoxfX.png",
@@ -194,7 +194,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Dragon-Type moves by 20%..",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Dragon-Type moves by 20%.." 
   },
   {
     "photo": "https://i.imgur.com/iYc8iFg.png",
@@ -202,7 +202,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [148, 149, 371, 372, 373, 621],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Dragon-type moves by +20%.",
+    "effect": "This item will boost Dragon-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/85fbp2o.png",
@@ -210,7 +210,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Dragon Fang",
-    "effect": "The Power of Dragon-type moves will increase by +50%.",
+    "effect": "The Power of Dragon-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/50SAU6i.png",
@@ -219,7 +219,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "While holding this item, you can trade Seadra to evolve it into Kingdra.",
+        "While holding this item, you can trade Seadra to evolve it into Kingdra." 
   },
   {
     "photo": "https://i.imgur.com/ArM09XS.png",
@@ -228,7 +228,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves by 20%.",
+        "An item held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves by 20%." 
   },
   {
     "photo": "https://i.imgur.com/ObbJXhK.png",
@@ -237,7 +237,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800 BP",
     "craft": null,
     "effect":
-        "While holding this item, you can trade Porygon2 to evolve it into Porygon-Z.",
+        "While holding this item, you can trade Porygon2 to evolve it into Porygon-Z." 
   },
   {
     "photo": "https://i.imgur.com/MMuC2XK.png",
@@ -246,7 +246,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves by 20%.",
+        "An item held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves by 20%." 
   },
   {
     "photo": "https://i.imgur.com/OCrgu86.png",
@@ -255,7 +255,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "100 BP",
     "craft": null,
     "effect":
-        "If the holder is hit by an attack, then it will switch into another Pokémon in your party.",
+        "If the holder is hit by an attack, then it will switch into another Pokémon in your party." 
   },
   {
     "photo": "https://i.imgur.com/9qVcvNv.png",
@@ -264,7 +264,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "While holding this item, you can trade Electabuzz to evolve it into Electivire.",
+        "While holding this item, you can trade Electabuzz to evolve it into Electivire." 
   },
   {
     "photo": "https://i.imgur.com/je1nMLB.png",
@@ -272,7 +272,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Magnet",
-    "effect": "The Power of Electric-type moves will increase by +50%.",
+    "effect": "The Power of Electric-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/r2vG4cx.png",
@@ -281,7 +281,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "This item prevents the holder from evolving. It can also be used to have offspring retain his/her nature when breeding.",
+        "This item prevents the holder from evolving. It can also be used to have offspring retain his/her nature when breeding." 
   },
   {
     "photo": "https://i.imgur.com/qbrbOoI.png",
@@ -290,7 +290,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,800 BP",
     "craft": null,
     "effect":
-        "Increases 50% of Defense and Special Defense for not fully evolved Pokémon (Porygon2, Rhydon, etc).",
+        "Increases 50% of Defense and Special Defense for not fully evolved Pokémon (Porygon2, Rhydon, etc)." 
   },
   {
     "photo": "https://i.imgur.com/3OaLmwm.png",
@@ -299,7 +299,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "Shares 50% Experience to the holder. That Exp is divided when you have multiple users (2 holders = 25% each).",
+        "Shares 50% Experience to the holder. That Exp is divided when you have multiple users (2 holders = 25% each)." 
   },
   {
     "photo": "https://i.imgur.com/fbfyQqE.png",
@@ -308,7 +308,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item to be held by a Pokemon. It boosts the power of Super Effective moves by 20%.",
+        "An item to be held by a Pokemon. It boosts the power of Super Effective moves by 20%." 
   },
   {
     "photo": "https://i.imgur.com/U3BUmx3.png",
@@ -316,7 +316,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Black Belt",
-    "effect": "The Power of Fighting-type moves will increase by +50%.",
+    "effect": "The Power of Fighting-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/jUuKfKD.png",
@@ -324,7 +324,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Charcoal",
-    "effect": "The Power of Fire-type moves will increase by +50%.",
+    "effect": "The Power of Fire-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/g3hTc4F.png",
@@ -333,7 +333,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves by 20%.",
+        "An item held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves by 20%." 
   },
   {
     "photo": "https://i.imgur.com/baBivDF.png",
@@ -342,7 +342,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "6,400 BP",
     "craft": null,
     "effect":
-        "The holder will be Burned in the second turn of the fight unless a switch is made or if the item is given to the opponent via Trick or Switcheroo.",
+        "The holder will be Burned in the second turn of the fight unless a switch is made or if the item is given to the opponent via Trick or Switcheroo." 
   },
   {
     "photo": "https://i.imgur.com/tgFGBt6.png",
@@ -351,7 +351,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves by 20%.",
+        "An item held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves by 20%." 
   },
   {
     "photo": "https://i.imgur.com/ez6rqFh.png",
@@ -359,7 +359,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [299, 476, 575, 576],
     "price": null,
     "craft": null,
-    "effect": "Halves the weight of the holder.",
+    "effect": "Halves the weight of the holder."
   },
   {
     "photo": "https://i.imgur.com/gudhpyz.png",
@@ -367,7 +367,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Sharp Beak",
-    "effect": "The Power of Flying-type moves will increase by +50%.",
+    "effect": "The Power of Flying-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/7VK9Tz0.png",
@@ -375,7 +375,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [66, 67],
     "price": "3,200 BP",
     "craft": null,
-    "effect": "Might leave the holder with 1 HP when full HP.",
+    "effect": "Might leave the holder with 1 HP when full HP."
   },
   {
     "photo": "https://i.imgur.com/ROLj9M2.png",
@@ -384,7 +384,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "100 BP",
     "craft": null,
     "effect":
-        "Always leave the holder with 1 HP when full HP. This item is perishable however, so use it sparingly.",
+        "Always leave the holder with 1 HP when full HP. This item is perishable however, so use it sparingly." 
   },
   {
     "photo": "https://i.imgur.com/pSpNubR.png",
@@ -393,7 +393,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,600",
     "craft": null,
     "effect":
-        "This Incense will allow you to hatch a Munchlax. Also, your priority move will be used last if it is the same priority as your opponent.",
+        "This Incense will allow you to hatch a Munchlax. Also, your priority move will be used last if it is the same priority as your opponent." 
   },
   {
     "photo": "https://i.imgur.com/dSuBoXS.png",
@@ -401,7 +401,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Spell Tag",
-    "effect": "The Power of Ghost-type moves will increase by +50%.",
+    "effect": "The Power of Ghost-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/LisjT9r.png",
@@ -409,7 +409,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Miracle Seed",
-    "effect": "The Power of Grass-type moves will increase by +50%.",
+    "effect": "The Power of Grass-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/vsC89Uw.png",
@@ -417,7 +417,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [27, 28, 215, 461],
     "price": null,
     "craft": null,
-    "effect": "Makes Unstoppable-Moves (Wrap, Bind, etc) become 5 turns.",
+    "effect": "Makes Unstoppable-Moves (Wrap, Bind, etc) become 5 turns."
   },
   {
     "photo": "https://i.imgur.com/F0NdDx5.png",
@@ -426,7 +426,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "The power of Ghost and Dragon Moves for Giratina will increase by +20% power.",
+        "The power of Ghost and Dragon Moves for Giratina will increase by +20% power." 
   },
   {
     "photo": "https://i.imgur.com/NwEIwot.png",
@@ -434,7 +434,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Soft Sand",
-    "effect": "The Power of Ground-type moves will increase by +50%.",
+    "effect": "The Power of Ground-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/KmFaThl.png",
@@ -442,7 +442,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [95, 74, 75, 76, 524, 525, 526],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Rock-type moves by +20%.",
+    "effect": "This item will boost Rock-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/eqEh7iT.png",
@@ -450,7 +450,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [324],
     "price": null,
     "craft": null,
-    "effect": "Sun Weather Turns will be increased from 5 turns to 8 turns.",
+    "effect": "Sun Weather Turns will be increased from 5 turns to 8 turns."
   },
   {
     "photo": "https://i.imgur.com/t7YOH4t.png",
@@ -458,7 +458,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + NeverMeltIce",
-    "effect": "The Power of Ice-type moves will increase by +50%.",
+    "effect": "The Power of Ice-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/K2G0akP.png",
@@ -467,7 +467,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": "Mysterious Gem + NeverMeltIce",
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Ice-Type moves by 20%.",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Ice-Type moves by 20%." 
   },
   {
     "photo": "https://i.imgur.com/063qaXT.png",
@@ -475,7 +475,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [459, 460, 582, 583, 584],
     "price": null,
     "craft": null,
-    "effect": "Hail Weather Turns will be increased from 5 turns to 8 turns.",
+    "effect": "Hail Weather Turns will be increased from 5 turns to 8 turns."
   },
   {
     "photo": "https://i.imgur.com/tD7QIYg.png",
@@ -484,7 +484,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves by 20%.",
+        "An item held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/nv1KOwW.png",
@@ -493,7 +493,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800 BP",
     "craft": null,
     "effect":
-        "This ball decreases 50% speed of the holder and the holder can be hit by Ground moves.",
+        "This ball decreases 50% speed of the holder and the holder can be hit by Ground moves."
   },
   {
     "photo": "https://i.imgur.com/xHZLAlg.png",
@@ -502,7 +502,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokémon. It is a stone tablet that boosts the power of Iron-type moves by 20%.",
+        "An item held by a Pokémon. It is a stone tablet that boosts the power of Iron-type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/3oW51yy.png",
@@ -511,7 +511,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "While holding this item, you can trade Poliwhirl or Slowpoke to evolve it into Politoed or Slowking. Also, your opponent's flinch rate increases by +10%.",
+        "While holding this item, you can trade Poliwhirl or Slowpoke to evolve it into Politoed or Slowking. Also, your opponent's flinch rate increases by +10%."
   },
   {
     "photo": "https://i.imgur.com/fpEHYGV.png",
@@ -519,7 +519,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [79, 80, 95, 108, 208, 463],
     "price": null,
     "craft": null,
-    "effect": "The holder will always move last.",
+    "effect": "The holder will always move last."
   },
   {
     "photo": "https://i.imgur.com/kg9KQrE.png",
@@ -528,7 +528,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800 BP",
     "craft": null,
     "effect":
-        "This Incence will allow you to hatch a Wynaut. Also, your foe's accuracy will be reduced",
+        "This Incence will allow you to hatch a Wynaut. Also, your foe's accuracy will be reduced"
   },
   {
     "photo": "https://i.imgur.com/zhyfjnY.png",
@@ -536,7 +536,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [143],
     "price": "4,800 BP",
     "craft": null,
-    "effect": "This held item heals 6.25% HP for each turn.",
+    "effect": "This held item heals 6.25% HP for each turn."
   },
   {
     "photo": "https://i.imgur.com/KhKJIRI.png",
@@ -545,7 +545,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "6,400 BP",
     "craft": null,
     "effect":
-        "This held item will increase the user's power by +30%, however this will cost 10% HP from the user.",
+        "This held item will increase the user's power by +30%, however this will cost 10% HP from the user."
   },
   {
     "photo": "https://i.imgur.com/VSKxVcS.png",
@@ -554,7 +554,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "Your Pikachu's Attack and Special Attack increase by +100% if this item is held. You can also have a female Pikachu hold this item to pass it off to the offspring (this also works with a male Pikachu and Ditto).",
+        "Your Pikachu's Attack and Special Attack increase by +100% if this item is held. You can also have a female Pikachu hold this item to pass it off to the offspring (this also works with a male Pikachu and Ditto)."
   },
   {
     "photo": "https://i.imgur.com/V8BYUcy.png",
@@ -563,7 +563,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "If the holder uses Reflect or Light Screen, then these screens will last 8 turns instead of 5 turns.",
+        "If the holder uses Reflect or Light Screen, then these screens will last 8 turns instead of 5 turns."
   },
   {
     "photo": "https://i.imgur.com/Cwo84NP.png",
@@ -571,7 +571,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "9,600",
     "craft": null,
-    "effect": "This Incence will allow you to hatch a Happiny.",
+    "effect": "This Incence will allow you to hatch a Happiny."
   },
   {
     "photo": "https://i.imgur.com/i33ptoe.png",
@@ -580,7 +580,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "This item increases Chansey's Critical Hit chances by +2 Stages.",
+        "This item increases Chansey's Critical Hit chances by +2 Stages."
   },
   {
     "photo": "https://i.imgur.com/pQkWuvr.png",
@@ -589,7 +589,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "The power of Water and Dragon Moves for Palkia will increase by +50% power.",
+        "The power of Water and Dragon Moves for Palkia will increase by +50% power."
   },
   {
     "photo": "https://i.imgur.com/sVxKngE.png",
@@ -598,7 +598,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "The holder's Speed will decrease by 50%, but in return you will receive double the EVs when EV Training.",
+        "The holder's Speed will decrease by 50%, but in return you will receive double the EVs when EV Training."
   },
   {
     "photo": "https://i.imgur.com/SI2Y4BQ.png",
@@ -607,7 +607,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "While holding this item, you can trade Magmar to evolve it into Magmortar.",
+        "While holding this item, you can trade Magmar to evolve it into Magmortar."
   },
   {
     "photo": "https://i.imgur.com/AZmY5Ax.png",
@@ -617,11 +617,11 @@ final List<Map<String, dynamic>> itemsHeldList = [
       82,
       462,
       299,
-      476,
+      476
     ],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Electric-type moves by +20%.",
+    "effect": "This item will boost Electric-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/coVXZBk.png",
@@ -630,7 +630,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Grass-Type moves by 20%.",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Grass-Type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/UiW0q4W.png",
@@ -638,7 +638,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [270, 271, 272, 540, 541, 542],
     "price": "300",
     "craft": null,
-    "effect": "Removes Infatuated Status.",
+    "effect": "Removes Infatuated Status."
   },
   {
     "photo": "https://i.imgur.com/J2NK6QW.png",
@@ -646,7 +646,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [81, 462, 95, 208, 374, 437, 436],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Steel-type moves by +20%.",
+    "effect": "This item will boost Steel-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/R2sEU8d.png",
@@ -654,7 +654,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [132],
     "price": null,
     "craft": null,
-    "effect": "Ditto's Defence increases by +2 Stages.",
+    "effect": "Ditto's Defence increases by +2 Stages."
   },
   {
     "photo": "https://i.imgur.com/hckWZbf.png",
@@ -662,7 +662,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [420, 421, 556],
     "price": null,
     "craft": null,
-    "effect": "The Power of Grass-type moves will increase by +50%.",
+    "effect": "The Power of Grass-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/UzECSK2.png",
@@ -670,7 +670,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "4,800 BP",
     "craft": null,
-    "effect": "Physical moves will increase by 10% power.",
+    "effect": "Physical moves will increase by 10% power."
   },
   {
     "photo": "https://i.imgur.com/oCL7xt5.png",
@@ -678,7 +678,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [118, 119, 131, 351],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Water-type moves by +20%.",
+    "effect": "This item will boost Water-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/PqIkYAz.png",
@@ -686,7 +686,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [87, 221, 473, 362, 459, 460, 582, 583, 584, 615],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Ice-type moves by +20%.",
+    "effect": "This item will boost Ice-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/AXSeSpu.png",
@@ -694,7 +694,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Silk Scarf",
-    "effect": "The Power of Normal-type moves will increase by +50%.",
+    "effect": "The Power of Normal-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/7m1QRW1.png",
@@ -703,7 +703,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,600",
     "craft": null,
     "effect":
-        "This Incence will allow you to hatch a Mime Jr. Also, your psychic-type moves will be boosted by 20%.",
+        "This Incence will allow you to hatch a Mime Jr. Also, your psychic-type moves will be boosted by 20%."
   },
   {
     "photo": "https://i.imgur.com/4Jxiikh.png",
@@ -711,7 +711,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Poison-type moves by +20%.",
+    "effect": "This item will boost Poison-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/g1lpa04.png",
@@ -719,7 +719,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [72, 73, 211, 315, 331],
     "price": null,
     "craft": "Mysterious Gem + Poison Barb",
-    "effect": "The Power of Poison-type moves will increase by +50%.",
+    "effect": "The Power of Poison-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/OySejnd.png",
@@ -727,7 +727,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "10,000 or 750 BP",
     "craft": null,
-    "effect": "The holder will pass its Speed IV to the offspring.",
+    "effect": "The holder will pass its Speed IV to the offspring."
   },
   {
     "photo": "https://i.imgur.com/fjQNMhr.png",
@@ -735,7 +735,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "10,000 or 750 BP",
     "craft": null,
-    "effect": "The holder will pass its Special Defence IV to the offspring.",
+    "effect": "The holder will pass its Special Defence IV to the offspring."
   },
   {
     "photo": "https://i.imgur.com/hQIV3C2.png",
@@ -743,7 +743,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "10,000 or 750 BP",
     "craft": null,
-    "effect": "The holder will pass its Defence IV to the offspring.",
+    "effect": "The holder will pass its Defence IV to the offspring."
   },
   {
     "photo": "https://i.imgur.com/CiX1FO5.png",
@@ -751,16 +751,16 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "10,000 or 750 BP",
     "craft": null,
-    "effect": "The holder will pass its Attack IV to the offspring.",
+    "effect": "The holder will pass its Attack IV to the offspring."
   },
   {
     "photo": "https://i.imgur.com/baB7eSs.png",
     "name": "Power Herb",
     "held_by_pokemon": [273, 274, 275],
-    "price": "100 BP	",
+    "price": "100 BP",
     "craft": null,
     "effect":
-        "This Herb allows you to turn 2 Turn moves into a 1 Turn move. (Solar Beam, Sky Attack, etc)",
+        "This Herb allows you to turn 2 Turn moves into a 1 Turn move. (Solar Beam, Sky Attack, etc)"
   },
   {
     "photo": "https://i.imgur.com/0ifDju2.png",
@@ -768,7 +768,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "10,000 or 750 BP",
     "craft": null,
-    "effect": "The holder will pass its Special Attack IV to the offspring.",
+    "effect": "The holder will pass its Special Attack IV to the offspring."
   },
   {
     "photo": "https://i.imgur.com/NH4xijz.png",
@@ -776,7 +776,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "10,000 or 750 BP",
     "craft": null,
-    "effect": "The holder will pass its HP IV to the offspring.",
+    "effect": "The holder will pass its HP IV to the offspring."
   },
   {
     "photo": "https://i.imgur.com/XxJo7Jd.png",
@@ -785,7 +785,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "10,000 or 750 BP",
     "craft": null,
     "effect":
-        "While holding this item, you can trade Rhydon to evolve it into Rhyperior",
+        "While holding this item, you can trade Rhydon to evolve it into Rhyperior"
   },
   {
     "photo": "https://i.imgur.com/kpGDQDK.png",
@@ -793,7 +793,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + TwistedSpoon",
-    "effect": "The Power of psychic-type moves will increase by +50%.",
+    "effect": "The Power of psychic-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/ONiXoXq.png",
@@ -802,7 +802,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,600",
     "craft": null,
     "effect":
-        "This Incense will allow you to hatch a Chingling. Also, this Incense will reduce wild Pokemon encounters.",
+        "This Incense will allow you to hatch a Chingling. Also, this Incense will reduce wild Pokemon encounters."
   },
   {
     "photo": "https://i.imgur.com/ByQhFPt.png",
@@ -811,7 +811,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "This held item could allow the holder to go first in battle. The item works 20% of the time.",
+        "This held item could allow the holder to go first in battle. The item works 20% of the time."
   },
   {
     "photo": "https://i.imgur.com/1hk6Nsq.png",
@@ -819,7 +819,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [132],
     "price": null,
     "craft": null,
-    "effect": "Ditto's Speed increases by +2 Stages.",
+    "effect": "Ditto's Speed increases by +2 Stages."
   },
   {
     "photo": "https://i.imgur.com/6vYlFf1.png",
@@ -828,7 +828,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800 BP",
     "craft": null,
     "effect":
-        "While holding this item, you can level Sneasel at night to evolve it into Weavile.",
+        "While holding this item, you can level Sneasel at night to evolve it into Weavile."
   },
   {
     "photo": "https://i.imgur.com/GbpQsob.png",
@@ -837,7 +837,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800 BP",
     "craft": null,
     "effect":
-        "While holding this item, you can level Gligar at night to evolve it into Gliscor.",
+        "While holding this item, you can level Gligar at night to evolve it into Gliscor."
   },
   {
     "photo": "https://i.imgur.com/PLOhmok.png",
@@ -846,7 +846,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "While holding this item, you can trade Dusclops to evolve it into Dusknoir.",
+        "While holding this item, you can trade Dusclops to evolve it into Dusknoir."
   },
   {
     "photo": "https://i.imgur.com/bToQkHt.png",
@@ -855,7 +855,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "100 BP",
     "craft": null,
     "effect":
-        "A card with a mysterious power. When the holder is struck by a foe, then the attacker is removed from the battle.",
+        "A card with a mysterious power. When the holder is struck by a foe, then the attacker is removed from the battle."
   },
   {
     "photo": "https://i.imgur.com/e9C6JQU.png",
@@ -863,7 +863,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "4,800 BP",
     "craft": null,
-    "effect": "The holder is no longer immune to any damge.",
+    "effect": "The holder is no longer immune to any damge."
   },
   {
     "photo": "https://i.imgur.com/MZAic3S.png",
@@ -871,7 +871,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Hard Rock",
-    "effect": "The Power of Rock-type moves will increase by +50%.",
+    "effect": "The Power of Rock-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/SF2v9w1.png",
@@ -880,7 +880,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,600",
     "craft": null,
     "effect":
-        "This Incence will allow you to hatch a Bonsly. Also, your Rock-type moves will be boosted by 20%.",
+        "This Incence will allow you to hatch a Bonsly. Also, your Rock-type moves will be boosted by 20%."
   },
   {
     "photo": "https://i.imgur.com/JqgQVc2.png",
@@ -889,7 +889,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800 BP",
     "craft": null,
     "effect":
-        "Your opponent will have his/her HP reduced by 6.25% of the max HP if his/her moves make contact.",
+        "Your opponent will have his/her HP reduced by 6.25% of the max HP if his/her moves make contact."
   },
   {
     "photo": "https://i.imgur.com/AEoXCsU.png",
@@ -898,7 +898,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,600",
     "craft": null,
     "effect":
-        "This Incence will allow you to hatch a Budew. Also, your Grass-type moves will be boosted by 20%.",
+        "This Incence will allow you to hatch a Budew. Also, your Grass-type moves will be boosted by 20%."
   },
   {
     "photo": "https://i.imgur.com/MLNqT9G.png",
@@ -906,7 +906,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "4,800 BP",
     "craft": null,
-    "effect": "Your Critical Hits increase by +1 Stage.",
+    "effect": "Your Critical Hits increase by +1 Stage."
   },
   {
     "photo": "https://i.imgur.com/mY50GSt.png",
@@ -915,7 +915,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800",
     "craft": null,
     "effect":
-        "This Incence will allow you to hatch a Azurill. Also, your Water-type moves will be boosted by 20%",
+        "This Incence will allow you to hatch a Azurill. Also, your Water-type moves will be boosted by 20%"
   },
   {
     "photo": "https://i.imgur.com/FmVvF4z.png",
@@ -923,7 +923,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [21, 22, 84, 85, 227],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Flying-type moves by +20%.",
+    "effect": "This item will boost Flying-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/1Zz88tf.png",
@@ -931,7 +931,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [49, 559, 560],
     "price": null,
     "craft": null,
-    "effect": "Always allows switching out if held",
+    "effect": "Always allows switching out if held"
   },
   {
     "photo": "https://i.imgur.com/RaXRh0i.png",
@@ -940,7 +940,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": "4 Shoal Shells and 4 Shoal Salt",
     "effect":
-        "Your HP can be healed by 12.5% only if you use an attacking move against your opponent.",
+        "Your HP can be healed by 12.5% only if you use an attacking move against your opponent."
   },
   {
     "photo": "https://i.imgur.com/9gNrdDR.png",
@@ -948,7 +948,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [568, 569],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Normal-type moves by +20%.",
+    "effect": "This item will boost Normal-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/cREW61O.png",
@@ -956,7 +956,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [12, 49, 267, 269, 284, 413, 414, 637],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Bug-type moves by +20%.",
+    "effect": "This item will boost Bug-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/rS3C0w3.png",
@@ -964,7 +964,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [109, 110],
     "price": null,
     "craft": null,
-    "effect": "The lead holder can run away from wild pokemon.",
+    "effect": "The lead holder can run away from wild pokemon."
   },
   {
     "photo": "https://i.imgur.com/xgvRtNL.png",
@@ -973,7 +973,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "Sandstorm Weather Turns will be increased from 5 turns to 8 turns.",
+        "Sandstorm Weather Turns will be increased from 5 turns to 8 turns."
   },
   {
     "photo": "https://i.imgur.com/ISJuJkf.png",
@@ -981,7 +981,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [27, 50, 290, 328, 618],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Ground-type moves by +20%.",
+    "effect": "This item will boost Ground-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/812907G.png",
@@ -989,7 +989,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": null,
-    "effect": "Doubles Happiness Earning for the holder.",
+    "effect": "Doubles Happiness Earning for the holder."
   },
   {
     "photo": "https://i.imgur.com/SgEbZgS.png",
@@ -997,7 +997,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [93, 94, 353, 354, 200, 429, 355, 356, 477, 562, 563],
     "price": null,
     "craft": null,
-    "effect": "This item will boost Ghost-type moves by +20%.",
+    "effect": "This item will boost Ghost-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/x0CCq53.png",
@@ -1005,7 +1005,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Metal Coat",
-    "effect": "The Power of Steel-type moves will increase by +50%.",
+    "effect": "The Power of Steel-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/FpheF2x.png",
@@ -1014,7 +1014,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "This item increases Farfetch'd's Critical Hit chances by +2 Stages.",
+        "This item increases Farfetch'd's Critical Hit chances by +2 Stages."
   },
   {
     "photo": "https://i.imgur.com/l4SjP5n.png",
@@ -1023,7 +1023,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "This item decreases 12.5% HP each turn for the holder. Your opponent will also lose 12.5% HP if you're using a physical contact move (Double-Edge, Body Slam, etc).",
+        "This item decreases 12.5% HP each turn for the holder. Your opponent will also lose 12.5% HP if you're using a physical contact move (Double-Edge, Body Slam, etc)."
   },
   {
     "photo": "https://i.imgur.com/32QA5Ox.png",
@@ -1032,7 +1032,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Flying-Type moves by 20%.",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Flying-Type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/Zy7O0aa.png",
@@ -1041,7 +1041,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Water-Type moves by 20%.",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Water-Type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/m9CG59Q.png",
@@ -1050,7 +1050,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Ghost-Type moves by 20%.",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Ghost-Type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/wtJbBMF.png",
@@ -1059,7 +1059,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Rock-Type moves by 20%.",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Rock-Type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/gz7I6E1.png",
@@ -1067,7 +1067,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [104, 105],
     "price": null,
     "craft": null,
-    "effect": "This item increases Cubone's or Marowak's Attack by +2 Stages.",
+    "effect": "This item increases Cubone's or Marowak's Attack by +2 Stages."
   },
   {
     "photo": "https://i.imgur.com/MMpKjA7.png",
@@ -1076,7 +1076,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "6,400 BP",
     "craft": null,
     "effect":
-        "The holder will be Badly Poisoned in the second turn of the fight unless a switch is made or if the item is given to the opponent via Trick or Switcheroo.",
+        "The holder will be Badly Poisoned in the second turn of the fight unless a switch is made or if the item is given to the opponent via Trick or Switcheroo." 
   },
   {
     "photo": "https://i.imgur.com/TldwKnC.png",
@@ -1085,7 +1085,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Poison-Type moves by 20%.",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Poison-Type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/hic4mbF.png",
@@ -1093,7 +1093,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [63, 64, 65],
     "price": null,
     "craft": null,
-    "effect": "This item will boost psychic-type moves by +20%.",
+    "effect": "This item will boost psychic-type moves by +20%."
   },
   {
     "photo": "https://i.imgur.com/ktr1JLv.png",
@@ -1102,7 +1102,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "3,200 BP",
     "craft": null,
     "effect":
-        "While holding this item, you can trade Porygon to evolve it into Porygon2",
+        "While holding this item, you can trade Porygon to evolve it into Porygon2"
   },
   {
     "photo": "https://i.imgur.com/oEtDNBw.png",
@@ -1110,7 +1110,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": null,
     "craft": "Mysterious Gem + Mystic Water",
-    "effect": "The Power of Water-type moves will increase by +50%.",
+    "effect": "The Power of Water-type moves will increase by +50%."
   },
   {
     "photo": "https://i.imgur.com/e2bVOHb.png",
@@ -1119,7 +1119,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "9,600",
     "craft": null,
     "effect":
-        "This Incence will allow you to hatch a Mantyke. Also, your Water-type moves will be boosted by 20%..",
+        "This Incence will allow you to hatch a Mantyke. Also, your Water-type moves will be boosted by 20%.."
   },
   {
     "photo": "https://i.imgur.com/1Ixy8N0.png",
@@ -1127,7 +1127,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [193, 469, 302],
     "price": "4,800 BP",
     "craft": null,
-    "effect": "This held item boosts the Accuracy of moves by 10%.",
+    "effect": "This held item boosts the Accuracy of moves by 10%."
   },
   {
     "photo": "https://i.imgur.com/ak9kP45.png",
@@ -1135,7 +1135,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "100 BP",
     "craft": null,
-    "effect": "Removes lowered stats.",
+    "effect": "Removes lowered stats."
   },
   {
     "photo": "https://i.imgur.com/Omrn8Uh.png",
@@ -1143,7 +1143,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "held_by_pokemon": [],
     "price": "4,800 BP",
     "craft": null,
-    "effect": "Special moves will increase by 10% power.",
+    "effect": "Special moves will increase by 10% power."
   },
   {
     "photo": "https://i.imgur.com/0vTAwly.png",
@@ -1152,7 +1152,7 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": null,
     "craft": null,
     "effect":
-        "An item held by a Pokemon. It is a stone tablet that boosts the power of Electric-Type moves by 20%.",
+        "An item held by a Pokemon. It is a stone tablet that boosts the power of Electric-Type moves by 20%."
   },
   {
     "photo": "https://i.imgur.com/2l5RhYR.png",
@@ -1161,6 +1161,6 @@ final List<Map<String, dynamic>> itemsHeldList = [
     "price": "4,800 BP",
     "craft": null,
     "effect":
-        "This held item boosts the Accuracy of moves by 20% if the holder moves last.",
+        "This held item boosts the Accuracy of moves by 20% if the holder moves last."
   }
-];
+]

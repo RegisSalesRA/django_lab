@@ -1,11 +1,11 @@
-final List<Map<String, dynamic>>  itemsEvolutionStonesList = [
+  [
   {
     "location": "",
     "photo": "https://i.imgur.com/Qc6h868.png",
     "name": "Fire Stone",
     "held_by_pokemon": [],
     "price": "5,000",
-    "wild": "-",
+    "wild": "-" 
   },
   {
     "location": "",
@@ -29,7 +29,7 @@ final List<Map<String, dynamic>>  itemsEvolutionStonesList = [
     "name": "Leaf Stone",
     "held_by_pokemon": [],
     "price": "5,000",
-    "wild": "-",
+    "wild": "-" 
   },
   {
     "location": "",
@@ -37,7 +37,7 @@ final List<Map<String, dynamic>>  itemsEvolutionStonesList = [
     "name": "Moon Stone",
     "held_by_pokemon": [35, 36, 39, 173, 337],
     "price": "-",
-    "wild": "Clefairy, Clefable, Jigglypuff, Cleffa, and Lunatone",
+    "wild": "Clefairy, Clefable, Jigglypuff, Cleffa, and Lunatone"
   },
   {
     "location": "",
@@ -53,7 +53,7 @@ final List<Map<String, dynamic>>  itemsEvolutionStonesList = [
     "name": "Dawn Stone",
     "held_by_pokemon": [280, 281, 361],
     "price": "-",
-    "wild": "Ralts",
+    "wild": "Ralts"
   },
   {
     "location": "",
@@ -71,4 +71,4 @@ final List<Map<String, dynamic>>  itemsEvolutionStonesList = [
     "price": "-",
     "wild": "Togepi and Roselia"
   }
-];
+]

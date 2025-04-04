@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> itemsFossilList = [
+ [
   {
     "photo": "https://i.imgur.com/KJZX523.png",
     "name": "Dome Fossil",
@@ -70,5 +70,5 @@ final List<Map<String, dynamic>> itemsFossilList = [
     "effect": "Revives into Archen",
     "location":
         "Drop item in the Dust Cloud phenomena or Held item from Roggenrola, Boldore, and Gigalith in Unova (if you use Rock Smash)."
-  },
-];
+  }
+]

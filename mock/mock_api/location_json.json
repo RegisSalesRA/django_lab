@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> locationJson = [
+[
   {
     "name": "Bulbasaur",
     "wild_locations": [
@@ -7,7 +7,7 @@ final List<Map<String, dynamic>> locationJson = [
         "region": "Kanto",
         "location": "Viridian Forest",
         "level": "10",
-        "rarity": "Lure",
+        "rarity": "Lure"
       }
     ]
   },
@@ -19,7 +19,7 @@ final List<Map<String, dynamic>> locationJson = [
         "region": "Kanto",
         "location": "Route 5",
         "level": "19",
-        "rarity": "Lure",
+        "rarity": "Lure"
       }
     ]
   },
@@ -31,7 +31,7 @@ final List<Map<String, dynamic>> locationJson = [
         "region": "Kanto",
         "location": "Route 3",
         "level": "11",
-        "rarity": "Lure",
+        "rarity": "Lure"
       }
     ]
   },
@@ -43,7 +43,7 @@ final List<Map<String, dynamic>> locationJson = [
         "region": "Kanto",
         "location": "Rock Tunnel",
         "level": "20",
-        "rarity": "Lure",
+        "rarity": "Lure"
       }
     ]
   },
@@ -55,7 +55,7 @@ final List<Map<String, dynamic>> locationJson = [
         "region": "Kanto",
         "location": "Route 24",
         "level": "17",
-        "rarity": "Lure",
+        "rarity": "Lure"
       }
     ]
   },
@@ -67,7 +67,7 @@ final List<Map<String, dynamic>> locationJson = [
         "region": "Kanto",
         "location": "Seafoam Islands",
         "level": "40",
-        "rarity": "Lure",
+        "rarity": "Lure"
       }
     ]
   },
@@ -29001,7 +29001,7 @@ final List<Map<String, dynamic>> locationJson = [
         "location": "route 114",
         "levels": "16-19",
         "rarity": "Rare"
-      },
+      }
     ]
   },
   {
@@ -31778,7 +31778,7 @@ final List<Map<String, dynamic>> locationJson = [
       {
         "type": "Grass",
         "region": "Hoenn",
-        "location": "	Petalburg Woods",
+        "location": "Petalburg Woods",
         "level": "Lv.5-6",
         "rarity": "Uncommon"
       }
@@ -32084,7 +32084,7 @@ final List<Map<String, dynamic>> locationJson = [
         "location": "route 116",
         "levels": "8",
         "rarity": "Rare"
-      },
+      }
     ]
   },
   {
@@ -32519,7 +32519,7 @@ final List<Map<String, dynamic>> locationJson = [
         "location": "route 118",
         "levels": "26",
         "rarity": "Uncommon"
-      },
+      }
     ]
   },
   {
@@ -32531,7 +32531,7 @@ final List<Map<String, dynamic>> locationJson = [
         "location": "route 110",
         "levels": "12-13",
         "rarity": "Uncommon"
-      },
+      }
     ]
   },
   {
@@ -32543,7 +32543,7 @@ final List<Map<String, dynamic>> locationJson = [
         "location": "route 110",
         "levels": "12-13",
         "rarity": "Uncommon"
-      },
+      }
     ]
   },
   {
@@ -32741,7 +32741,7 @@ final List<Map<String, dynamic>> locationJson = [
         "location": "route 110",
         "levels": "13",
         "rarity": "uncommon"
-      },
+      }
     ]
   },
   {
@@ -33335,10 +33335,10 @@ final List<Map<String, dynamic>> locationJson = [
       {
         "type": "Shadow",
         "region": "unova",
-        "location": "	Dragonspiral Tower",
+        "location": "Dragonspiral Tower",
         "levels": "39-40",
         "rarity": "Special"
-      },
+      }
     ]
   },
   {
@@ -34403,7 +34403,7 @@ final List<Map<String, dynamic>> locationJson = [
         "location": "Safari Zone",
         "levels": "28-30",
         "rarity": "Uncommon"
-      },
+      }
     ]
   },
   {
@@ -43445,4 +43445,4 @@ final List<Map<String, dynamic>> locationJson = [
       }
     ]
   }
-];
+]

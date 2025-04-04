@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> heldPokemonItensList = [
+[
   {
     "name": "Butterfree",
     "items": ["Silver Powder"]
@@ -1361,4 +1361,4 @@ final List<Map<String, dynamic>> heldPokemonItensList = [
     "name": "Meloetta",
     "items": ["Star Piece"]
   }
-];
+]

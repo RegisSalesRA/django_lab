@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> itemsBerriesList = [
+ [
   {
     "photo": "https://i.imgur.com/KXpJg7P.png",
     "name": "Aguav Berry",
@@ -746,7 +746,7 @@ final List<Map<String, dynamic>> itemsBerriesList = [
     "Harvest": "4 - 7",
     "seed_1": "Very Dry",
     "seed_2": "Very Dry",
-    "seed_3": null,
+    "seed_3": null
   },
   {
     "photo": "https://i.imgur.com/7bu2NeQ.png",
@@ -770,4 +770,4 @@ final List<Map<String, dynamic>> itemsBerriesList = [
     "seed_2": "Gracidea",
     "seed_3": "Gracidea"
   }
-];
+] 

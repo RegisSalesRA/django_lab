@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>>  itemsFeatureList = [
+ [
   {
     "photo": "https://i.imgur.com/st74718.png",
     "name": "Amulet Coin",
@@ -188,4 +188,4 @@ final List<Map<String, dynamic>>  itemsFeatureList = [
     "can-it-stack":
         "Yes, but only with other power-ups. Although, it does stack in a link."
   }
-];
+]

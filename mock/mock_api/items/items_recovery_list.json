@@ -1,4 +1,4 @@
-var itemsRecoveryList = [
+[
   {
     "photo": "https://i.imgur.com/1GT4tlF.png",
     "name": "Antidote",
@@ -249,4 +249,4 @@ var itemsRecoveryList = [
     "effect": "Restores 20 HP",
     "location": "-"
   }
-];
+]

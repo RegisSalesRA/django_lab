@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> hordeJohtoJson = [
+[
   {
     "id": 191,
     "region": "johto",
@@ -1032,7 +1032,7 @@ final List<Map<String, dynamic>> hordeJohtoJson = [
     "specification": "Water",
     "floor": "",
     "poke_horde": [
-      61,
+      61
     ],
     "ev_yield_secondary": "",
     "value_status_secondary": ""
@@ -1048,7 +1048,7 @@ final List<Map<String, dynamic>> hordeJohtoJson = [
     "specification": "Grass",
     "floor": "",
     "poke_horde": [
-      42,
+      42
     ],
     "ev_yield_secondary": "",
     "value_status_secondary": ""
@@ -1092,7 +1092,7 @@ final List<Map<String, dynamic>> hordeJohtoJson = [
     "specification": "Cave",
     "floor": "F1",
     "poke_horde": [
-      75,
+      75
     ],
     "ev_yield_secondary": "",
     "value_status_secondary": ""
@@ -1643,4 +1643,4 @@ final List<Map<String, dynamic>> hordeJohtoJson = [
     "ev_yield_secondary": "",
     "value_status_secondary": ""
   }
-];
+]

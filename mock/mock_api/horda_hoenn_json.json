@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> hordeHoennJson = [
+[
   {
     "id": 1,
     "region": "hoenn",
@@ -1147,4 +1147,4 @@ final List<Map<String, dynamic>> hordeHoennJson = [
     "ev_yield_secondary": "",
     "value_status_secondary": ""
   }
-];
+]

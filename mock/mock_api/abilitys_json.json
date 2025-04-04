@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> abilitiesJson = [
+[
   {
     "id": 1,
     "name": "stench",
@@ -1243,4 +1243,4 @@ final List<Map<String, dynamic>> abilitiesJson = [
         "Passes the bearer's held item to an ally when the ally uses up its item.",
     "is_hidden": false
   }
-];
+]

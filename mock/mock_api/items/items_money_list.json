@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>>  itemsListMoney = [
+[
   {
     "photo": "https://i.imgur.com/P3K1mmn.png",
     "name": "Nugget",
@@ -53,4 +53,4 @@ final List<Map<String, dynamic>>  itemsListMoney = [
     "held_by_pokemon": [104, 105, 557, 558],
     "resale-value": "5,000"
   }
-];
+]

@@ -1,4 +1,4 @@
-List<Map<String, dynamic>> itemsPokeBallList = [
+[
   {
     "photo": "https://i.imgur.com/6ufZa2C.png",
     "name": "Dive Ball",
@@ -148,7 +148,7 @@ List<Map<String, dynamic>> itemsPokeBallList = [
     "price": "Refer to Kurt",
     "rate": "x1.0 (<100Kg), x2.0 (<200Kg), x3.0 (<300Kg), x4.0 (≥300Kg)",
     "effect": "Heavy Pokemon can be caught more easily",
-    "craft_method": "\$1,000 + Black Apricorn",
+    "craft_method": "1,000 + Black Apricorn",
     "location": "Kurt's House in Azalea Town"
   },
   {
@@ -157,7 +157,7 @@ List<Map<String, dynamic>> itemsPokeBallList = [
     "price": "Refer to Kurt",
     "rate": 4.0,
     "effect": "For Pokémon with Base Speed of 100 or higher",
-    "craft_method": "\$1,000 + White Apricorn",
+    "craft_method": "1,000 + White Apricorn",
     "location": "Kurt's House in Azalea Town"
   },
   {
@@ -166,7 +166,7 @@ List<Map<String, dynamic>> itemsPokeBallList = [
     "price": "Refer to Kurt",
     "rate": 4.0,
     "effect": "For Pokémon that evolve via Moon Stone",
-    "craft_method": "\$1,000 + Yellow Apricorn",
+    "craft_method": "1,000 + Yellow Apricorn",
     "location": "Kurt's House in Azalea Town"
   },
   {
@@ -175,7 +175,7 @@ List<Map<String, dynamic>> itemsPokeBallList = [
     "price": "Refer to Kurt",
     "rate": 2.5,
     "effect": "Increases Happiness to 78%",
-    "craft_method": "\$1,000 + Green Apricorn",
+    "craft_method": "1,000 + Green Apricorn",
     "location": "Kurt's House in Azalea Town"
   },
   {
@@ -184,7 +184,7 @@ List<Map<String, dynamic>> itemsPokeBallList = [
     "price": "Refer to Kurt",
     "rate": 4.0,
     "effect": "Fishing (including Phenomona and Special Feebas Encounters)",
-    "craft_method": "\$1,200 + Blue Apricorn",
+    "craft_method": "1,200 + Blue Apricorn",
     "location": "Kurt's House in Azalea Town"
   },
   {
@@ -194,7 +194,7 @@ List<Map<String, dynamic>> itemsPokeBallList = [
     "rate": 8.0,
     "effect":
         "Higher catch rate for opposite-gender Pokémon of the same species",
-    "craft_method": "\$1,350 + Pink Apricorn",
+    "craft_method": "1,350 + Pink Apricorn",
     "location": "Kurt's House in Azalea Town"
   },
     {
@@ -204,7 +204,7 @@ List<Map<String, dynamic>> itemsPokeBallList = [
     "rate": 4.0,
     "effect":
         "Targets which are the same level as your active party member's",
-    "craft_method": "\$1,350 + Red Apricorn",
+    "craft_method": "1,350 + Red Apricorn",
     "location": "Kurt's House in Azalea Town"
   },
   {
@@ -226,4 +226,4 @@ List<Map<String, dynamic>> itemsPokeBallList = [
     "craft_method": null,
     "location": "Gift Shop"
   }
-];
+]

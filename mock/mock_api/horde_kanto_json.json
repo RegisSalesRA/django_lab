@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>> hordeKantoJson = [
+ [
   {
     "id": 1,
     "region": "kanto",
@@ -169,9 +169,6 @@ final List<Map<String, dynamic>> hordeKantoJson = [
     "ev_yield_secondary": "",
     "value_status_secondary": ""
   },
-
-  // corrigido
-
   {
     "id": 14,
     "region": "kanto",
@@ -1911,4 +1908,4 @@ final List<Map<String, dynamic>> hordeKantoJson = [
     "ev_yield_secondary": "",
     "value_status_secondary": ""
   }
-];
+]

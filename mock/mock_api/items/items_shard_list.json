@@ -1,4 +1,4 @@
-final List<Map<String, dynamic>>  itemsShardList = [
+ [
   {
     "photo": "https://i.imgur.com/304v9vC.png",
     "name": "Blue Shard",
@@ -34,4 +34,4 @@ final List<Map<String, dynamic>>  itemsShardList = [
     "location": null,
     "held_by_pokemon": [370]
   }
-];
+]

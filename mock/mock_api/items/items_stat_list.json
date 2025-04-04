@@ -1,4 +1,4 @@
-var itemsStatList = [
+ [
    {
     "photo": "https://i.imgur.com/tYPfA9d.png",
     "name": "Calcium",
@@ -175,4 +175,4 @@ var itemsStatList = [
     "effect": "Increases the EXP of a Pokemon by a certain amount of points.",
     "location": "You need to either catch or defeat an Alpha Pokemon. They could also be in Event Chests."
   }
-];
+]
