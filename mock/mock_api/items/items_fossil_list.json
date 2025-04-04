@@ -1,0 +1,74 @@
+final List<Map<String, dynamic>> itemsFossilList = [
+  {
+    "photo": "https://i.imgur.com/KJZX523.png",
+    "name": "Dome Fossil",
+    "held_by_pokemon": [74, 75],
+    "effect": "Revives into Kabuto",
+    "location":
+        "Held item for Geodude and Graveler in Kanto (if you use Rock Smash)."
+  },
+  {
+    "photo": "https://i.imgur.com/zI0tJSz.png",
+    "name": "Helix Fossil",
+    "held_by_pokemon": [74, 75],
+    "effect": "Revives into Omanyte",
+    "location":
+        "Held item for Geodude and Graveler in Kanto (if you use Rock Smash)."
+  },
+  {
+    "photo": "https://i.imgur.com/GVpKGNl.png",
+    "name": "Old Amber",
+    "held_by_pokemon": [74, 75],
+    "effect": "Revives into Aerodactyl",
+    "location":
+        "Held item for Geodude and Graveler in Kanto (if you use Rock Smash)."
+  },
+  {
+    "photo": "https://i.imgur.com/fXI4UZG.png",
+    "name": "Claw Fossil",
+    "held_by_pokemon": [74, 75],
+    "effect": "Revives into Anorith",
+    "location":
+        "Held item for Geodude and Graveler in Hoenn (if you use Rock Smash)."
+  },
+  {
+    "photo": "https://i.imgur.com/QvB4JGa.png",
+    "name": "Root Fossil",
+    "held_by_pokemon": [74, 75],
+    "effect": "Revives into Lileep",
+    "location":
+        "Held item for Geodude and Graveler in Hoenn (if you use Rock Smash)."
+  },
+  {
+    "photo": "https://i.imgur.com/YLf1sGO.png",
+    "name": "Armor Fossil",
+    "held_by_pokemon": [74, 75],
+    "effect": "Revives into Shieldon",
+    "location":
+        "Held item for Geodude and Graveler in Sinnoh (if you use Rock Smash)."
+  },
+  {
+    "photo": "https://i.imgur.com/SvC7mPP.png",
+    "name": "Skull Fossil",
+    "held_by_pokemon": [74, 75],
+    "effect": "Revives into Cranidos",
+    "location":
+        "Held item for Geodude and Graveler in Sinnoh (if you use Rock Smash)."
+  },
+  {
+    "photo": "https://i.imgur.com/sTlZ5nP.png",
+    "name": "Cover Fossil",
+    "held_by_pokemon": [524, 525, 526],
+    "effect": "Revives into Tirtouga",
+    "location":
+        "Drop item in the Dust Cloud phenomena or Held item from Roggenrola, Boldore, and Gigalith in Unova (if you use Rock Smash)."
+  },
+  {
+    "photo": "https://i.imgur.com/tys13MC.png",
+    "name": "Plume Fossil",
+    "held_by_pokemon": [524, 525, 526],
+    "effect": "Revives into Archen",
+    "location":
+        "Drop item in the Dust Cloud phenomena or Held item from Roggenrola, Boldore, and Gigalith in Unova (if you use Rock Smash)."
+  },
+];

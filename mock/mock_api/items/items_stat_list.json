@@ -1,0 +1,178 @@
+var itemsStatList = [
+   {
+    "photo": "https://i.imgur.com/tYPfA9d.png",
+    "name": "Calcium",
+    "price": "275 BP",
+    "craft": "3 Berry Powders & 1 Genius Wing",
+    "effect": "+10 Special Attack EVs",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/TbCuAwN.png",
+    "name": "Carbos",
+    "price": "275 BP",
+    "craft": "3 Berry Powders & 1 Swift Wing",
+    "effect": "+10 Speed EVs",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/LUDAyyE.png",
+    "name": "Cleavor Wing",
+    "price": "150 BP",
+    "craft": "-",
+    "effect": "+1 Special Defence EV",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/Pvh6XPm.png",
+    "name": "Genius Wing",
+    "price": "150 BP",
+    "craft": "-",
+    "effect": "+1 Special Attack EV",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/URJxYOZ.png",
+    "name": "Health Wing",
+    "price": "150 BP",
+    "craft": "-",
+    "effect": "+1 HP EV",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/JTyWxOa.png",
+    "name": "HP Up",
+    "price": "275 BP",
+    "craft": "3 Berry Powders & 1 Health Wing",
+    "effect": "+10 HP EVs",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/tYPfA9d.png",
+    "name": "Hyper Calcium",
+    "price": "-",
+    "craft": "14 Berry Powders & 5 Genius Wings",
+    "effect": "+25 Special Attack EVs",
+    "location": "Lavaridge Town, Futchia Town, and Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/TbCuAwN.png",
+    "name": "Hyper Carbos",
+    "price": "-",
+    "craft": "14 Berry Powders & 5 Swift Wings",
+    "effect": "+25 Speed EVs",
+    "location": "Lavaridge Town, Futchia Town, and Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/JTyWxOa.png",
+    "name": "Hyper HP Up",
+    "price": "-",
+    "craft": "14 Berry Powders & 5 Health Wings",
+    "effect": "+25 HP EVs",
+    "location": "Lavaridge Town, Futchia Town, and Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/AQzofdG.png",
+    "name": "Hyper Iron",
+    "price": "-",
+    "craft": "14 Berry Powders & 5 Resist Wings",
+    "effect": "+25 Defence EVs",
+    "location": "Lavaridge Town, Futchia Town, and Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/KEHbWoR.png",
+    "name": "Hyper Protein",
+    "price": "-",
+    "craft": "14 Berry Powders & 5 Muscle Wings",
+    "effect": "+25 Attack EVs",
+    "location": "Lavaridge Town, Futchia Town, and Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/kn8ZS7k.png",
+    "name": "Hyper Zinc",
+    "price": "-",
+    "craft": "14 Berry Powders & 5 Cleavor Wings",
+    "effect": "+25 Special Defence EVs",
+    "location": "Lavaridge Town, Futchia Town, and Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/AQzofdG.png",
+    "name": "Iron",
+    "price": "275 BP",
+    "craft": "3 Berry Powders & 1 Resist Wing",
+    "effect": "+10 Defence EVs",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/XWmIqdi.png",
+    "name": "Muscle Wing",
+    "price": "150 BP",
+    "craft": "-",
+    "effect": "+1 Attack EV",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/FLgx4cM.png",
+    "name": "PP Max",
+    "price": "-",
+    "craft": "24 Berry Powders & 3 White Herbs",
+    "effect": "Adds the max amount of PP for a single move",
+    "location": "Pokemon League"
+  },
+  {
+    "photo": "https://i.imgur.com/bDbyTRF.png",
+    "name": "PP Up",
+    "price": "-",
+    "craft": "12 Berry Powders & 1 White Herb",
+    "effect": "Adds a little bit of PP for a single move",
+    "location": "Pokemon League"
+  },
+  {
+    "photo": "https://i.imgur.com/KEHbWoR.png",
+    "name": "Protein",
+    "price": "275 BP",
+    "craft": "3 Berry Powders & 1 Muscle Wing",
+    "effect": "+10 Attack EVs",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/rkCez8B.png",
+    "name": "Rare Candy",
+    "price": "-",
+    "craft": "1 Balm Mushroom, 6 Tiny Mushrooms, and 25 Berry Powders",
+    "effect": "+1 Level Up",
+    "location": "Pokemon League"
+  },
+  {
+    "photo": "https://i.imgur.com/3V3KHFX.png",
+    "name": "Resist Wing",
+    "price": "150 BP",
+    "craft": "-",
+    "effect": "+1 Defence EV",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/D0xwTpE.png",
+    "name": "Swift Wing",
+    "price": "150 BP",
+    "craft": "-",
+    "effect": "+1 Speed EV",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/kn8ZS7k.png",
+    "name": "Zinc",
+    "price": "275 BP",
+    "craft": "3 Berry Powders & 1 Cleavor Wing",
+    "effect": "+10 Special Defence EVs",
+    "location": "Battle Frontier, Gear Station, Slateport City, Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/ZXfTVum.png",
+    "name": "Exp Candy",
+    "price": "-",
+    "craft": "-",
+    "effect": "Increases the EXP of a Pokemon by a certain amount of points.",
+    "location": "You need to either catch or defeat an Alpha Pokemon. They could also be in Event Chests."
+  }
+];

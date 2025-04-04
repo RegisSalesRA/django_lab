@@ -1,0 +1,4 @@
+export '../mock_api/abilitys_json.dart';
+export '../mock_api/horde_kanto_json.dart'; 
+export '../mock_api/location_json.dart';
+export '../mock_api/moves_json.dart';

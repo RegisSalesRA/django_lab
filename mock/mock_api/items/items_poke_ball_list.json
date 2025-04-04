@@ -1,0 +1,229 @@
+List<Map<String, dynamic>> itemsPokeBallList = [
+  {
+    "photo": "https://i.imgur.com/6ufZa2C.png",
+    "name": "Dive Ball",
+    "price": 1200,
+    "rate": 3.5,
+    "effect": "Diving, Surfing, or Fishing",
+    "craft_method": null,
+    "location": "Mossdeep City"
+  },
+  {
+    "photo": "https://i.imgur.com/E1fA0lM.png",
+    "name": "Dusk Ball",
+    "price": 1400,
+    "rate": 3.5,
+    "effect": "Inside a Cave or Night Time",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, and Everywhere in Sinnoh"
+  },
+  {
+    "photo": "https://i.imgur.com/uZijpmj.png",
+    "name": "Great Ball",
+    "price": 600,
+    "rate": 1.5,
+    "effect": "-",
+    "craft_method": null,
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/uEYeVnb.png",
+    "name": "Heal Ball",
+    "price": 300,
+    "rate": 1.0,
+    "effect": "Restores HP and Removes Status Ailments",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, and Everywhere in Sinnoh"
+  },
+  {
+    "photo": "https://i.imgur.com/bJFQ1wc.png",
+    "name": "Luxury Ball",
+    "price": 1000,
+    "rate": 2.0,
+    "effect": "Increases Happiness, x2.0 for species with Happiness evolution",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, Everywhere in Sinnoh, Verdanturf City"
+  },
+  {
+    "photo": "https://i.imgur.com/855Wwcs.png",
+    "name": "Master Ball",
+    "price": null,
+    "rate": 255.0,
+    "effect": "100% Success",
+    "craft_method": null,
+    "location": "Story"
+  },
+  {
+    "photo": "https://i.imgur.com/Je0QDj0.png",
+    "name": "Nest Ball",
+    "price": 1000,
+    "rate": "x3.0 (< Lv. 20), x2.0 (< Lv. 30), x1.0 (> Lv. 30)",
+    "effect": "Depends on Levels",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, Everywhere in Sinnoh, Verdanturf City"
+  },
+  {
+    "photo": "https://i.imgur.com/teJITFh.png",
+    "name": "Net Ball",
+    "price": 1350,
+    "rate": 3.5,
+    "effect": "Water or Bug Type",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, Everywhere in Sinnoh, Mossdeep City"
+  },
+  {
+    "photo": "https://i.imgur.com/lvp8eVE.png",
+    "name": "Poke Ball",
+    "price": 200,
+    "rate": 1.0,
+    "effect": "-",
+    "craft_method": null,
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/njloaXD.png",
+    "name": "Premier Ball",
+    "price": null,
+    "rate": 1.5,
+    "effect": "-",
+    "craft_method": null,
+    "location": "PokeMMO Event Prize"
+  },
+  {
+    "photo": "https://i.imgur.com/HtFIhQM.png",
+    "name": "Quick Ball",
+    "price": 1200,
+    "rate": 4.0,
+    "effect": "First Turn",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, Everywhere in Sinnoh, Verdanturf City"
+  },
+  {
+    "photo": "https://i.imgur.com/UBqfRnH.png",
+    "name": "Repeat Ball",
+    "price": 1250,
+    "rate": "Starts at x1.0, Maximum Catch Rate: x2.5",
+    "effect": "Increases with repeated captures of the same species",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, Everywhere in Sinnoh, Rustboro City"
+  },
+  {
+    "photo": "https://i.imgur.com/uEd4pHN.png",
+    "name": "Safari Ball",
+    "price": null,
+    "rate": 1.5,
+    "effect": "Only Safari",
+    "craft_method": null,
+    "location": "Safari Zone"
+  },
+  {
+    "photo": "https://i.imgur.com/bPyZGPK.png",
+    "name": "Timer Ball",
+    "price": 900,
+    "rate": "x1.0 (<11th Turn), x2.0 (<21st Turn), x3.0 (>21st Turn)",
+    "effect": "Depends on Turns",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, Everywhere in Sinnoh, Rustboro City"
+  },
+  {
+    "photo": "https://i.imgur.com/HYQr327.png",
+    "name": "Ultra Ball",
+    "price": 1200,
+    "rate": 2.0,
+    "effect": "-",
+    "craft_method": null,
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/WTI3gzU.png",
+    "name": "Heavy Ball",
+    "price": "Refer to Kurt",
+    "rate": "x1.0 (<100Kg), x2.0 (<200Kg), x3.0 (<300Kg), x4.0 (≥300Kg)",
+    "effect": "Heavy Pokemon can be caught more easily",
+    "craft_method": "\$1,000 + Black Apricorn",
+    "location": "Kurt's House in Azalea Town"
+  },
+  {
+    "photo": "https://i.imgur.com/WLpa8Eo.png",
+    "name": "Fast Ball",
+    "price": "Refer to Kurt",
+    "rate": 4.0,
+    "effect": "For Pokémon with Base Speed of 100 or higher",
+    "craft_method": "\$1,000 + White Apricorn",
+    "location": "Kurt's House in Azalea Town"
+  },
+  {
+    "photo": "https://i.imgur.com/8jALUZ8.png",
+    "name": "Moon Ball",
+    "price": "Refer to Kurt",
+    "rate": 4.0,
+    "effect": "For Pokémon that evolve via Moon Stone",
+    "craft_method": "\$1,000 + Yellow Apricorn",
+    "location": "Kurt's House in Azalea Town"
+  },
+  {
+    "photo": "https://i.imgur.com/7GD3XRc.png",
+    "name": "Friend Ball",
+    "price": "Refer to Kurt",
+    "rate": 2.5,
+    "effect": "Increases Happiness to 78%",
+    "craft_method": "\$1,000 + Green Apricorn",
+    "location": "Kurt's House in Azalea Town"
+  },
+  {
+    "photo": "https://i.imgur.com/msKB9tv.png",
+    "name": "Lure Ball",
+    "price": "Refer to Kurt",
+    "rate": 4.0,
+    "effect": "Fishing (including Phenomona and Special Feebas Encounters)",
+    "craft_method": "\$1,200 + Blue Apricorn",
+    "location": "Kurt's House in Azalea Town"
+  },
+  {
+    "photo": "https://i.imgur.com/TyO2Utx.png",
+    "name": "Love Ball",
+    "price": "Refer to Kurt",
+    "rate": 8.0,
+    "effect":
+        "Higher catch rate for opposite-gender Pokémon of the same species",
+    "craft_method": "\$1,350 + Pink Apricorn",
+    "location": "Kurt's House in Azalea Town"
+  },
+    {
+    "photo": "https://i.imgur.com/7v7XogF.png",
+    "name": "Level Ball",
+    "price": "Refer to Kurt",
+    "rate": 4.0,
+    "effect":
+        "Targets which are the same level as your active party member's",
+    "craft_method": "\$1,350 + Red Apricorn",
+    "location": "Kurt's House in Azalea Town"
+  },
+  {
+    "photo": "https://i.imgur.com/Gs31zKZ.png",
+    "name": "Dream Ball",
+    "price": 1200,
+    "rate": "Starts at x1.0, Maximum Catch Rate: x4.0",
+    "effect": "x4.0 if the Pokémon is asleep for at least 2 turns",
+    "craft_method": null,
+    "location":
+        "Shopping Mall, Almost everywhere in Johto, Everywhere in Sinnoh except for the Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/wQKEOU8.png",
+    "name": "Cherish Ball",
+    "price": "200 Reward Points for x10",
+    "rate": 2.0,
+    "effect": "-",
+    "craft_method": null,
+    "location": "Gift Shop"
+  }
+];

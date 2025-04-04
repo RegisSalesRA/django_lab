@@ -1,0 +1,252 @@
+var itemsRecoveryList = [
+  {
+    "photo": "https://i.imgur.com/1GT4tlF.png",
+    "name": "Antidote",
+    "price": "600",
+    "craft": "1 Berry Powder and 1 Pecha Berry",
+    "effect": "Removes Poison Status and Restores 20 HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/hmv1JrC.png",
+    "name": "Awakening",
+    "price": "600",
+    "craft": "1 Berry Powder and 1 Chesto Berry",
+    "effect": "Removes Sleep Status and Restores 20 HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/8Met339.png",
+    "name": "Berry Juice",
+    "price": "-",
+    "craft": "1 Berry Powder and 1 Fresh Water",
+    "effect": "Restores 20 HP",
+    "location": "Shuckle has a chance to hold it."
+  },
+  {
+    "photo": "https://i.imgur.com/EhriLdL.png",
+    "name": "Burn Heal",
+    "price": "600",
+    "craft": "1 Berry Powder and 1 Rawst Berry",
+    "effect": "Removes Burn Status and Restores 20 HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/q9o6zgf.png",
+    "name": "Casteliacone",
+    "price": "1,200",
+    "craft": null,
+    "effect": "Removes All Status",
+    "location": "Potential Drop from Event Chests."
+  },
+  {
+    "photo": "https://i.imgur.com/I6ECEoX.png",
+    "name": "Elixir",
+    "price": "1,200",
+    "craft": "8 Berry Powders and 3 Leppa Berries",
+    "effect": "Restores 10 PP of All Moves",
+    "location": null
+  },
+  {
+    "photo": "https://i.imgur.com/Qe7xEG1.png",
+    "name": "EnergyPowder",
+    "price": "900",
+    "craft": "Energy Root",
+    "effect": "Restores 60 HP",
+    "location": "Driftveil's City's Shopping Fare (Unova)"
+  },
+  {
+    "photo": "https://i.imgur.com/eKNoYJT.png",
+    "name": "Energy Root",
+    "price": null,
+    "craft": null,
+    "effect": "Restores 120 HP",
+    "location": "-"
+  },
+  {
+    "photo": "https://i.imgur.com/XRbjzxu.png",
+    "name": "Ether",
+    "price": null,
+    "craft": "3 Berry Powders and 1 Leppa Berry",
+    "effect": "Restores 10 PP of a Single Move",
+    "location": "-"
+  },
+  {
+    "photo": "https://i.imgur.com/sI2j5Qs.png",
+    "name": "Fresh Water",
+    "price": "300",
+    "craft": null,
+    "effect": "Restores 30 HP",
+    "location": "Vending Machines from all regions and Two"
+  },
+  {
+    "photo": "https://i.imgur.com/J3pBegR.png",
+    "name": "Full Heal",
+    "price": "-",
+    "craft": "6 Berry Powders and 2 Heal Powders",
+    "effect": "Removes All Status and Restores 20 HP",
+    "location": "-"
+  },
+  {
+    "photo": "https://i.imgur.com/VBzaSWO.png",
+    "name": "Full Restore",
+    "price": "-",
+    "craft": "12 Berry Powders, 3 Heal Powders, and 3 Energy Powders",
+    "effect": "Restores Full HP and Removes All Status",
+    "location": "-"
+  },
+  {
+    "photo": "https://i.imgur.com/YRJbMcy.png",
+    "name": "Heal Powder",
+    "price": "900",
+    "craft": "Lum Berry",
+    "effect": "Removes All Status",
+    "location": "Driftveil City's Shopping Fare (Unova)"
+  },
+  {
+    "photo": "https://i.imgur.com/7ePdPgq.png",
+    "name": "Hyper Potion",
+    "price": "1,400",
+    "craft": " ",
+    "effect": "Restores 120 HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/NTKj11R.png",
+    "name": "Ice Heal",
+    "price": "600",
+    "craft": "1 Berry Powder and 1 Aspear Berry",
+    "effect": "Removes Frozen Status and Restores 20 HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/Y7E0Pc0.png",
+    "name": "Lava Cookie",
+    "price":
+        "1,200 (Kanto, Hoenn's Lavaridge Town, and Sinnoh) 2,500 (Hoenn's Mt Chimney)",
+    "craft": null,
+    "effect": "Removes All Status",
+    "location":
+        "Kanto: Two Island Market Stall Hoenn: Elderly Lady at Mt. Chimney and Lavaridge Town's Shop Sinnoh: Veilstone Department Store"
+  },
+  {
+    "photo": "https://i.imgur.com/4mQt1TO.png",
+    "name": "Lemonade",
+    "price": "750",
+    "craft": null,
+    "effect": "Restores 70 HP",
+    "location": "Vending Machines from all regions and Two"
+  },
+  {
+    "photo": "https://i.imgur.com/KrVRLmX.png",
+    "name": "Max Elixir",
+    "price": null,
+    "craft": "16 Berry Powders and 8 Leppa Berries",
+    "effect": "Restore Max PP of All Moves",
+    "location": null
+  },
+  {
+    "photo": "https://i.imgur.com/ukiFzcZ.png",
+    "name": "Max Ether",
+    "price": null,
+    "craft": "8 Berry Powders and 3 Leppa Berries",
+    "effect": "Removes Max PP",
+    "location": null
+  },
+  {
+    "photo": "https://i.imgur.com/03l6Kg6.png",
+    "name": "Max Potion",
+    "price": null,
+    "craft": "8 Berry Powders and 8 Energy Powders",
+    "effect": "Restores Full HP",
+    "location": null
+  },
+  {
+    "photo": "https://i.imgur.com/16bCEzc.png",
+    "name": "Max Revive",
+    "price": null,
+    "craft": "14 Berry Powders, 4 Heal Powders, and 1 Revival Herb",
+    "effect": "Revives and Restores Full HP",
+    "location": null
+  },
+  {
+    "photo": "https://i.imgur.com/ZjdW0pJ.png",
+    "name": "Moomoo Milk",
+    "price": "1,000",
+    "craft": null,
+    "effect": "Restores 100 HP",
+    "location": ""
+  },
+  {
+    "photo": "https://i.imgur.com/mAf42YW.png",
+    "name": "Old Gateau",
+    "price": null,
+    "craft": null,
+    "effect": "Removes All Status",
+    "location": "Story"
+  },
+  {
+    "photo": "https://i.imgur.com/Gfsl8oU.png",
+    "name": "Paralyze Heal",
+    "price": "600",
+    "craft": "1 Berry Powder and 1 Cheri Berry",
+    "effect": "Removes Paralysis and Restores 20 HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/CJZNkEn.png",
+    "name": "Potion",
+    "price": "200",
+    "craft": null,
+    "effect": "Restores 20 HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/Zcc9Hfo.png",
+    "name": "RageCandyBar",
+    "price": null,
+    "craft": null,
+    "effect": "Removes All Status",
+    "location": "Story, Goodie Bag (2021), and Pumpking Goodie Bag (2021)"
+  },
+  {
+    "photo": "https://i.imgur.com/W3m1qts.png",
+    "name": "Revival Herb",
+    "price": null,
+    "craft": null,
+    "effect": "Revives and Restores Full HP",
+    "location": "-"
+  },
+  {
+    "photo": "https://i.imgur.com/qr5gccV.png",
+    "name": "Revive",
+    "price": "3,250",
+    "craft": null,
+    "effect": "Revives and Restores A Half of Full HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/fRYE33t.png",
+    "name": "Soda Pop",
+    "price": "900",
+    "craft": null,
+    "effect": "Restores 50 HP",
+    "location": "Vending Machines from all regions and Two"
+  },
+  {
+    "photo": "https://i.imgur.com/cFndLzp.png",
+    "name": "Super Potion",
+    "price": "600",
+    "craft": null,
+    "effect": "Restores 60 HP",
+    "location": "Everywhere"
+  },
+  {
+    "photo": "https://i.imgur.com/VBj7y2D.png",
+    "name": "Sweet Heart",
+    "price": null,
+    "craft": null,
+    "effect": "Restores 20 HP",
+    "location": "-"
+  }
+];
