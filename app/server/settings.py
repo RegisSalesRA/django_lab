@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'rest_framework_simplejwt',
+    'graphene_django',
 ]
 
 MIDDLEWARE = [
@@ -35,6 +36,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+GRAPHENE = {
+    "SCHEMA": "core_graphQl.schema.schema"
+}
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [

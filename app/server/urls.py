@@ -5,6 +5,7 @@ from django.conf import settings
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
+from graphene_django.views import GraphQLView
 from rest_framework_simplejwt.views import (TokenObtainPairView,
                                             TokenRefreshView)
 
@@ -31,6 +32,7 @@ urlpatterns = [
         "api/token/refresh/",
         TokenRefreshView.as_view(),
         name="token_refresh"),
+    path('graphql/', GraphQLView.as_view(graphiql=True)),
     path('', schema_view.with_ui('swagger', cache_timeout=0)),
 ]
 
