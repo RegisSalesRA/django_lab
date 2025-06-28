@@ -1,98 +1,87 @@
 import graphene
 from graphene_django import DjangoObjectType
-from .models import Client
+from .models import Fruit
 
-class ClientType(DjangoObjectType):
+
+class FruitType(DjangoObjectType):
     class Meta:
-        model = Client
-        fields = ( "id", "first_name", "last_name", "city")
+        model = Fruit
+        fields = ("id", "name", "description", "price", "stock_quantity", "is_available", "created_at")
 
 
 class Query(graphene.ObjectType):
+    fruits = graphene.List(FruitType)
 
-    all_clients = graphene.List(ClientType)
-    def resolve_all_clients(root, info):
-#        return Client.objects.filter(city=fortaleza)
-        return Client.objects.all()
-
-
-schema = graphene.Schema(quer=Query)
+    def resolve_fruits(root, info, **kwargs):
+        return Fruit.objects.all()
 
 
-"""
-class ItemType(DjangoObjectType):
-    class Meta:
-        model = Item
-
-
-class Query(graphene.ObjectType):
-    items = graphene.List(ItemType)
-
-    def resolve_items(self, info, **kwargs):
-        return Item.objects.all()
-
-class CreateItem(graphene.Mutation):
+class CreateFruit(graphene.Mutation):
     class Arguments:
         name = graphene.String(required=True)
         description = graphene.String()
-        price = graphene.Decimal()
+        price = graphene.Decimal(required=True)
+        stock_quantity = graphene.Int()
+        is_available = graphene.Boolean()
 
-    item = graphene.Field(ItemType)
+    fruit = graphene.Field(FruitType)
 
-    def mutate(self, info, name, description, price):
-        item = Item(name=name, description=description, price=price)
-        item.save()
-        return CreateItem(item=item)
+    def mutate(self, info, name, description=None, price=0.0, stock_quantity=0, is_available=True):
+        fruit = Fruit(
+            name=name,
+            description=description,
+            price=price,
+            stock_quantity=stock_quantity,
+            is_available=is_available
+        )
+        fruit.save()
+        return CreateFruit(fruit=fruit)
 
-class UpdateItem(graphene.Mutation):
+
+class UpdateFruit(graphene.Mutation):
     class Arguments:
         id = graphene.ID(required=True)
         name = graphene.String()
         description = graphene.String()
         price = graphene.Decimal()
+        stock_quantity = graphene.Int()
+        is_available = graphene.Boolean()
 
-    item = graphene.Field(ItemType)
+    fruit = graphene.Field(FruitType)
 
-    def mutate(self, info, id, name=None, description=None, price=None):
+    def mutate(self, info, id, **kwargs):
         try:
-            item = Item.objects.get(pk=id)
-        except Item.DoesNotExist:
-            raise Exception("Item not found")
+            fruit = Fruit.objects.get(pk=id)
+        except Fruit.DoesNotExist:
+            raise Exception("Fruit not found")
 
-        if name is not None:
-            item.name = name
-        if description is not None:
-            item.description = description
-        if price is not None:
-            item.price = price
+        for key, value in kwargs.items():
+            if value is not None:
+                setattr(fruit, key, value)
 
-        item.save()
-        return UpdateItem(item=item)
-    
+        fruit.save()
+        return UpdateFruit(fruit=fruit)
 
 
-class DeleteItem(graphene.Mutation):
+class DeleteFruit(graphene.Mutation):
     class Arguments:
-        id = graphene.ID(required=True)  # ID of the item to delete
+        id = graphene.ID(required=True)
 
-    success = graphene.Boolean()  # Return a boolean indicating success
+    success = graphene.Boolean()
 
     def mutate(self, info, id):
         try:
-            item = Item.objects.get(pk=id)
-            item.delete()
-            return DeleteItem(success=True)
-        except Item.DoesNotExist:
-            raise Exception("Item not found")
-        except Exception as e:
-            raise Exception(f"An error occurred: {str(e)}")
-        
+            fruit = Fruit.objects.get(pk=id)
+            fruit.delete()
+            return DeleteFruit(success=True)
+        except Fruit.DoesNotExist:
+            raise Exception("Fruit not found")
 
 
 class Mutation(graphene.ObjectType):
-    create_item = CreateItem.Field()
-    update_item = UpdateItem.Field()
-    delete_item = DeleteItem.Field()
+    create_fruit = CreateFruit.Field()
+    update_fruit = UpdateFruit.Field()
+    delete_fruit = DeleteFruit.Field()
+
 
 schema = graphene.Schema(query=Query, mutation=Mutation)
-"""
