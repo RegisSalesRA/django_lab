@@ -18,7 +18,6 @@ class Conversation(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     objects = ConversationManager()
 
-
     def __str__(self):
         participant_names = " ,".join([user.user.username for user in self.participants.all()])
         return f'Conversation with {participant_names}'
@@ -29,7 +28,6 @@ class Message(models.Model):
     sender = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
     content = models.TextField()
     timestamp = models.DateTimeField(auto_now_add=True)
-
 
     def __str__(self):
         return f'Message from {self.sender.user.username} in {self.content[:20]}'

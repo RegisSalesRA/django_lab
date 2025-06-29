@@ -1,9 +1,10 @@
-from rest_framework import generics, permissions, status
+from rest_framework import generics, status
 from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticated 
+from rest_framework.permissions import IsAuthenticated
+from core_auth.models import UserProfile
 from django.shortcuts import get_object_or_404
-from .models import *
-from .serializers import *
+from .models import Message, Conversation
+from .serializers import ConversationSerializer, CreateMessageSerializer, MessageSerializer
 from rest_framework.exceptions import PermissionDenied
 
 
@@ -31,7 +32,7 @@ class ConversationListCreateView(generics.ListCreateAPIView):
                 {'error': 'You are not a participant of this conversation'},
                 status=status.HTTP_403_FORBIDDEN
             )
-        users = User.objects.filter(id__in=participants_data)
+        users = UserProfile.objects.filter(id__in=participants_data)
         if users.count() != 2:
             return Response(
                 {'error': 'A conversation needs exactly two participants'},
@@ -51,12 +52,12 @@ class ConversationListCreateView(generics.ListCreateAPIView):
             )
         conversation = Conversation.objects.create()
         conversation.participants.set(users)
-
-        #serialize the conversation
         serializer = self.get_serializer(conversation)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
+
 class MessageListCreateView(generics.ListCreateAPIView):
+
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
@@ -71,20 +72,17 @@ class MessageListCreateView(generics.ListCreateAPIView):
         return MessageSerializer
 
     def perform_create(self, serializer):
-        #fetch conversation and validate user participation
-        print("Incoming conversation", self.request.data)
+
         conversation_id = self.kwargs['conversation_id']
         conversation = self.get_conversation(conversation_id)
-
         serializer.save(sender=self.request.user, conversation=conversation)
 
     def get_conversation(self, conversation_id):
-        #check if user is a participant of the conversation, it helps to fetch the conversation and 
-        #validate the participants
         conversation = get_object_or_404(Conversation, id=conversation_id)
         if self.request.user not in conversation.participants.all():
             raise PermissionDenied('You are not a participant of this conversation')
         return conversation
+
 
 class MessageRetrieveDestroyView(generics.RetrieveDestroyAPIView):
     permission_classes = [IsAuthenticated]
