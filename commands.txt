@@ -10,3 +10,5 @@
 - sudo docker exec -it container_id sh
 #Tests
 - sudo docker compose run --rm app sh -c "python manage.py test"
+#Command Sudo Root
+- udo docker compose run --user root --rm app sh -c "pip install django-cors-headers channels && pip freeze > requirements.txt"

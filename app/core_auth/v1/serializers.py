@@ -25,6 +25,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ["username", "password", "password2", "email", "name"]
+        ref_name = "UserProfileAuth" 
         extra_kwargs = {"password": {"write_only": True}}
 
     def save(self, **kwargs):

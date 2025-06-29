@@ -21,7 +21,10 @@ INSTALLED_APPS = [
     'core_auth',
     'core_image',
     'core_graphQl',
+    'core_chat',
+    'channels',
     'rest_framework',
+    'corsheaders',
     'drf_yasg',
     'rest_framework_simplejwt',
     'graphene_django',
@@ -30,6 +33,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -120,6 +124,21 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'server.wsgi.application'
+
+ASGI_APPLICATION = 'chatsystemproj.asgi.application'
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('127.0.0.1', 6379)],
+        },
+    },
+}
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+]
 
 DATABASES = {
     'default': {
