@@ -13,14 +13,16 @@ services:
     command: >
       sh -c "python manage.py wait_for_db &&
              python manage.py migrate &&
-             python manage.py runserver 0.0.0.0:8000"
+             daphne -b 0.0.0.0 -p 8000 server.asgi:application"
     environment:
       - DB_HOST=db
       - DB_NAME=devdb
       - DB_USER=devuser
       - DB_PASS=changeme
+      - DJANGO_SETTINGS_MODULE=server.settings
     depends_on:
       - db
+      - redis
 
   db:
     image: postgres:13-alpine
@@ -32,6 +34,11 @@ services:
       - POSTGRES_PASSWORD=changeme
     ports:
       - "5433:5432"
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
 
 volumes:
   dev-db-data:

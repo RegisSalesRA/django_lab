@@ -10,5 +10,9 @@
 - sudo docker exec -it container_id sh
 #Tests
 - sudo docker compose run --rm app sh -c "python manage.py test"
+#Daphne command socket
+- sudo docker compose run --rm app sh -c "daphne -b 0.0.0.0 -p 8000 server.asgi:application"
 #Command Sudo Root
-- udo docker compose run --user root --rm app sh -c "pip install django-cors-headers channels && pip freeze > requirements.txt"
+- sudo docker compose run --user root --rm app sh -c "pip install django-cors-headers channels && pip freeze > requirements.txt"
+#Exec Docker
+- sudo docker compose exec app python manage.py shell

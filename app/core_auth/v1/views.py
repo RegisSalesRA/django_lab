@@ -1,10 +1,16 @@
 from django.shortcuts import get_object_or_404
 from rest_framework import generics, status
 from rest_framework.permissions import IsAuthenticated
-from core_auth.models import UserEvent
+from core_auth.models import UserEvent, UserProfile
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from core_auth.v1.serializers import EventSerializer, UserProfileSerializer
+from core_auth.v1.serializers import EventSerializer, UserProfileSerializer, UserSerializer
+
+
+class UsersView(generics.ListAPIView):
+    permission_classes = [IsAuthenticated]
+    queryset = UserProfile.objects.all()
+    serializer_class = UserSerializer
 
 
 class UserEventsView(generics.ListCreateAPIView):

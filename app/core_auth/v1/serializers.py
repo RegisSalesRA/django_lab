@@ -9,9 +9,12 @@ class EventSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
+    username = serializers.CharField(source='user.username', read_only=True)
+
     class Meta:
-        model = User
-        fields = ["username"]
+        model = UserProfile
+        fields = "__all__"
+        extra_fields = ["username"]
 
 
 class UserProfileSerializer(serializers.ModelSerializer):

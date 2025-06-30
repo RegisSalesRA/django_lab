@@ -125,16 +125,18 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'server.wsgi.application'
 
-ASGI_APPLICATION = 'chatsystemproj.asgi.application'
+ASGI_APPLICATION = 'server.asgi.application'
+
 
 CHANNEL_LAYERS = {
-    'default': {
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': {
-            'hosts': [('127.0.0.1', 6379)],
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("redis", 6379)],
         },
     },
 }
+
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",

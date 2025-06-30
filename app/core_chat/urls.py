@@ -1,17 +1,8 @@
 from django.urls import path
-from .views import ConversationListCreateView, MessageListCreateView, MessageRetrieveDestroyView
+from . import views
 
 
 urlpatterns = [
-    path('conversations/', ConversationListCreateView.as_view(), name='conversation_list'),
-    path(
-        'conversations/<int:conversation_id>/messages/',
-        MessageListCreateView.as_view(),
-        name='message_list_create',
-    ),
-    path(
-        'conversations/<int:conversation_id>/messages/<int:pk>/',
-        MessageRetrieveDestroyView.as_view(),
-        name='message_detail_destroy',
-    ),
+    path('rooms/', views.RoomList.as_view()),
+    path('rooms/<slug:room_name>/messages/', views.MessageList.as_view()),
 ]
